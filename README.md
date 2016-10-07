@@ -1,8 +1,8 @@
-![Liberation](http://i.imgur.com/bcWRxMT.png)
+![WolfeLib](http://i.imgur.com/QefGGps.png)
 
-# Liberation for Arma 3
+# Wolfe Lib (Liberation for Arma 3)
 
-## Current version : 0.923
+## Current Liberation Version : 0.923
 
 ## Overview
 
