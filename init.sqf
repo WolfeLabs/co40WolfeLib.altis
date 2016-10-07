@@ -12,7 +12,7 @@ if ( GRLIB_revive > 0 ) then {
 	[] execVM "FAR_revive\FAR_revive_init.sqf";
 };
 //Wolfe Edits
-[] call compileFinal preprocessFileLineNumbers "Wolfe\init_Wolfe.sqf";
+[] execVM "Wolfe\init_Wolfe.sqf";
 
 /////////////////////////////////
 [] execVM "GREUH\scripts\GREUH_activate.sqf";
