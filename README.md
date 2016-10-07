@@ -1,4 +1,4 @@
-![WolfeLib](http://i.imgur.com/QefGGps.png)
+![WolfeLib](http://i.imgur.com/QefGGpss.png)
 
 # Wolfe Lib (Liberation for Arma 3)
 
