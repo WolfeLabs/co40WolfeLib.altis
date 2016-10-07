@@ -178,8 +178,8 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
 	["Land_Medevac_house_V1_F",0,0,0],
-	["Land_Cargo_HQ_V1_F",0,0,0]
-
+	["Land_Medevac_HQ_V1_F",0,0,0]
+	
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
