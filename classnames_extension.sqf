@@ -48,7 +48,7 @@ light_vehicles_extension = [
 	["I_MRAP_03_gmg_F",0,20,3],
 	["fsf_fnk_hmg_ce",0,10,3],
 	["greuh_fnk_hmg_ce",0,10,3],
-	["greuh_fnk_hmg_dsrt",0,10,3],
+	["greuh_fnk_hmg_dsrt",0,0,3],
 	["rhsusf_m1025_d_m2",0,10,3],
 	["rhsusf_m1025_d_Mk19",0,10,3],
 	["rhsusf_m1025_d",0,10,3],
