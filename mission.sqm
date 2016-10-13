@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=579;
+		nextID=585;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14540.11,26.81978,5825.8037};
-		dir[]={-0.52934176,-0.81843209,-0.22410114};
-		up[]={-0.75392097,0.57421172,-0.31917199};
-		aside[]={-0.389893,2.0635489e-006,0.92098349};
+		pos[]={14538.165,36.129101,5820.127};
+		dir[]={-0.047145661,-0.83597445,0.54696673};
+		up[]={-0.071805395,0.54836053,0.83313501};
+		aside[]={0.99640447,2.9110743e-006,0.085874632};
 	};
 };
 binarizationWanted=0;
@@ -72,14 +72,13 @@ addons[]=
 	"ace_repair",
 	"ace_medical",
 	"ace_medical_menu",
-	"task_force_radio_items",
-	"acex_viewrestriction"
+	"task_force_radio_items"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=40;
+		items=39;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -353,13 +352,6 @@ class AddonsMetaData
 			author="[TF]Nkey";
 			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
-		class Item39
-		{
-			className="acex_viewrestriction";
-			name="acex_viewrestriction";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
 	};
 };
 randomSeed=799071;
@@ -392,7 +384,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=490;
+		items=489;
 		class Item0
 		{
 			dataType="Marker";
@@ -11109,11 +11101,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14523.848,7.234127,5846.3984};
+				position[]={14523.848,7.2338824,5846.3979};
 			};
 			id=554;
 			type="ACE_moduleAssignMedicVehicle";
-			atlOffset=2.3811865;
+			atlOffset=2.3810005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11131,7 +11123,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""rhsusf_M1083A1P2_B_M2_d_Medical_fmtv_usarmy"",""RHS_UH60M_MEV"",""RHS_UH60M_MEV2"",""B_Heli_Transport_03_unarmed_F"",""B_Heli_Transport_03_unarmed_F""]";
+							value="[rhsusf_M1083A1P2_B_M2_d_Medical_fmtv_usarmy,RHS_UH60M_ME,RHS_UH60M_MEV2,B_Heli_Transport_03_unarmed_F,B_Heli_Transport_03_unarmed_F]";
 						};
 					};
 				};
@@ -11583,11 +11575,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14531.806,2.9553688,5846.0049};
-				angles[]={6.2033553,0,5.9223709};
+				position[]={14531.992,4.4374156,5846.6611};
 			};
 			id=570;
 			type="ACEX_ModuleSitting";
+			atlOffset=1.4996605;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11610,115 +11602,6 @@ class Mission
 					};
 				};
 				nAttributes=1;
-			};
-		};
-		class Item489
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={14537.633,1.4098169,5846.8398};
-			};
-			id=571;
-			type="acex_viewrestriction_Module";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="acex_viewrestriction_Module_modeSelectiveAir";
-					expression="_this setVariable ['modeSelectiveAir',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="acex_viewrestriction_Module_modeSelectiveLand";
-					expression="_this setVariable ['modeSelectiveLand',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="acex_viewrestriction_Module_modeSelectiveFoot";
-					expression="_this setVariable ['modeSelectiveFoot',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="acex_viewrestriction_Module_modeSelectiveSea";
-					expression="_this setVariable ['modeSelectiveSea',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="acex_viewrestriction_Module_mode";
-					expression="_this setVariable ['mode',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=3;
-						};
-					};
-				};
-				nAttributes=5;
 			};
 		};
 	};
