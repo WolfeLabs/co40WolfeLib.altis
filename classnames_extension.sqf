@@ -160,7 +160,9 @@ air_vehicles_extension = [
 	["RHS_A10_AT",0,200,30],
 	["RHS_C130J",0,0,65],
 	
-	["RHS_UH60M_MEV",0,0,25]
+	["RHS_UH60M_MEV",0,0,25],
+	
+	["B_T_UAV_03_F",0,45,30]
 ];
 
 static_vehicles_overwrite = false;
@@ -178,7 +180,9 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
 	["Land_Medevac_house_V1_F",0,0,0],
-	["Land_Medevac_HQ_V1_F",0,0,0]
+	["Land_Medevac_HQ_V1_F",0,0,0],
+	["ACE_Track",0,0,0],
+	["ACE_Wheel",0,0,0]
 	
 ];
 
@@ -201,7 +205,7 @@ support_vehicles_extension = [
 
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
-
+	"B_T_UAV_03_F"
 ];
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
