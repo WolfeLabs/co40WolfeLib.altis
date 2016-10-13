@@ -82,10 +82,10 @@ air_vehicles = [
 	["B_Heli_Attack_01_F",0,150,30],
 	["B_Plane_CAS_01_F",0,500,50],
 	["B_UAV_01_F",0,0,5],
-	["B_UAV_02_F",0,250,20],
+	["B_UAV_02_F",0,150,20],
 	["B_T_VTOL_01_infantry_F",0,20,15],//Wolfe Edit
 	["B_T_VTOL_01_armed_F",0,500,50],//Wolfe Edit
-	["B_UAV_02_CAS_F",0,250,20]
+	["B_UAV_02_CAS_F",0,150,20]
 ];
 if ( isNil "air_vehicles_extension" ) then { air_vehicles_extension = [] };
 if ( isNil "air_vehicles_overwrite" ) then { air_vehicles_overwrite = false };
