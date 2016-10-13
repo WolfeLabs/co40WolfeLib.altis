@@ -181,8 +181,9 @@ buildings_overwrite = false;
 buildings_extension = [
 	["Land_Medevac_house_V1_F",0,0,0],
 	["Land_Medevac_HQ_V1_F",0,0,0],
-	["ACE_Track",0,0,0],
-	["ACE_Wheel",0,0,0]
+	["ACE_Track",0,2,0],
+	["ACE_Wheel",0,2,0],
+	["ACE_SpareBarrel",0,1,0]
 	
 ];
 
