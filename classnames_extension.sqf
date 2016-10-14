@@ -129,8 +129,8 @@ air_vehicles_extension = [
 	["FIR_F15E",0,200,50],
 	["JS_JC_FA18E",0,350,40],
 	["JS_JC_FA18F",0,350,40],
-	["sab_C130_CSP",0,0,30],
-	["sab_C130_J",0,0,30],
+	["sab_C130_CSP",0,0,100],
+	["sab_C130_J",0,0,100],
 	["usaf_f22",0,500,75],
 	["USAF_F35A",0,600,75],
 	["I_Plane_Fighter_03_AA_F",0,50,30],
@@ -162,7 +162,21 @@ air_vehicles_extension = [
 	
 	["RHS_UH60M_MEV",0,0,25],
 	
-	["B_T_UAV_03_F",0,45,30]
+	["B_T_UAV_03_F",0,45,30],
+	
+	["usaf_b1b",0,275,60],
+	["usaf_b2",0,300,65], //oh bby new b2
+	
+	["USAF_F35A",0,150,30],
+	["USAF_A10",0,200,30],
+	["USAF_F16",0,150,30],
+	["usaf_f22",0,150,30],
+	
+	["USAF_C17",0,0,500],
+	["USAF_CV22",0,100,50],
+	
+	["LDL_C130J",0,300,500],
+	["USAF_AC130U",0,300,500]
 ];
 
 static_vehicles_overwrite = false;
@@ -183,7 +197,8 @@ buildings_extension = [
 	["Land_Medevac_HQ_V1_F",0,0,0],
 	["ACE_Track",0,2,0],
 	["ACE_Wheel",0,2,0],
-	["ACE_SpareBarrel",0,1,0]
+	["Land_OfficeChair_01_F",0,0,0],
+	["USAF_MOABdisplay",0,0,0]
 	
 ];
 
