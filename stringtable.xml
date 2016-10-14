@@ -2534,5 +2534,8 @@
 						&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;
 						</French>
 				</Key>
+				<Key ID="STR_winnerSound">
+					<Original>You're a reall winner, aren't you?</Original>
+				</Key>
 		</Package>
 </Project>
