@@ -494,7 +494,11 @@ GRLIB_ignore_colisions_when_building = [
 	"Land_HelipadSquare_F",
 	"Sign_Sphere100cm_F",
 	"TMR_Autorest_Georef",
-	"Land_ClutterCutter_large_F"
+	"Land_ClutterCutter_large_F",
+	
+	"Land_TentHangar_V1_F",
+	"rhsusf_mkvsoc"
+	//Need to add more here.
 ];
 GRLIB_sar_wreck = "Land_Wreck_Heli_Attack_01_F";
 GRLIB_sar_fire = "test_EmptyObjectForFireBig";
