@@ -227,7 +227,6 @@ buildings_extension = [
 	["Land_Campfire_F",0,0,0],
 	["Land_PartyTent_01_F",0,0,0],
 	["Land_TointBox_F",0,0,0],
-	["Land_Laptop_device_F",0,0,0],
 	["Land_WoodenTable_large_F",0,0,0],
 	["Land_WoodenTable_small_F",0,0,0],
 	["OfficeTable_01_new_F",0,0,0],
