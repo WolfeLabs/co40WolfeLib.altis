@@ -129,8 +129,8 @@ air_vehicles_extension = [
 	["FIR_F15E",0,200,50],
 	["JS_JC_FA18E",0,350,40],
 	["JS_JC_FA18F",0,350,40],
-	["sab_C130_CSP",0,0,30],
-	["sab_C130_J",0,0,30],
+	["sab_C130_CSP",0,0,100],
+	["sab_C130_J",0,0,100],
 	["usaf_f22",0,500,75],
 	["USAF_F35A",0,600,75],
 	["I_Plane_Fighter_03_AA_F",0,50,30],
@@ -160,7 +160,23 @@ air_vehicles_extension = [
 	["RHS_A10_AT",0,200,30],
 	["RHS_C130J",0,0,65],
 	
-	["RHS_UH60M_MEV",0,0,25]
+	["RHS_UH60M_MEV",0,0,25],
+	
+	["B_T_UAV_03_F",0,45,30],
+	
+	["usaf_b1b",0,275,60],
+	["usaf_b2",0,300,65], //oh bby new b2
+	
+	["USAF_F35A",0,150,30],
+	["USAF_A10",0,200,30],
+	["USAF_F16",0,150,30],
+	["usaf_f22",0,150,30],
+	
+	["USAF_C17",0,0,500],
+	["USAF_CV22",0,100,50],
+	
+	["LDL_C130J",0,300,500],
+	["USAF_AC130U",0,300,500]
 ];
 
 static_vehicles_overwrite = false;
@@ -178,8 +194,62 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
 	["Land_Medevac_house_V1_F",0,0,0],
-	["Land_Medevac_HQ_V1_F",0,0,0]
-	
+	["Land_Medevac_HQ_V1_F",0,0,0],
+	["ACE_Track",0,2,0],
+	["ACE_Wheel",0,2,0],
+	["Land_OfficeChair_01_F",0,0,0],
+	["USAF_MOABdisplay",0,0,0],
+	["missile_cart_W_AGM114",0,10,0],
+	["missile_cart_W_AGM1",0,10,0],
+	["missile_cart_W_AGM2",0,10,0],
+	["missile_cart_W",0,10,0],
+	["missile_cart_W_GBU12",0,10,0],
+	["missile_cart_W_GBU39",0,10,0],
+	["missile_cart_W_Mk82",0,10,0],
+	["Land_LandMark_F",0,0,0],
+	["Land_Sign_WarningMilitaryArea_F",0,0,0],
+	["Land_Sign_WarningMilAreaSmall_F",0,0,0],
+	["Land_Sign_WarningMilitaryVehicles_F",0,0,0],
+	["Land_Sign_Mines_F",0,0,0],
+	["Land_Sign_WarningUnexploadedAmmo_F",0,0,0],
+	["Windsock_01_F",0,0,0],
+	["Land_TentHangar_V1_F",0,0,0],
+	["Land_WorkStand_F",0,0,0],
+	["Land_LampAirport_F",0,0,0],
+	["Land_LampSolar_F",0,0,0],
+	["Land_WoodenBox_F",0,0,0],
+	["CargoNet_01_barrels_F",0,0,0],
+	["PortableHelipadLight_01_F",0,0,0],
+	["PortableHelipadLight_01_yellow_F",0,0,0],
+	["PortableHelipadLight_01_red_F",0,0,0],
+	["PortableHelipadLight_01_green_F",0,0,0],
+	["PortableHelipadLight_01_white_F",0,0,0],
+	["Land_Campfire_F",0,0,0],
+	["Land_PartyTent_01_F",0,0,0],
+	["Land_TointBox_F",0,0,0],
+	["Land_WoodenTable_large_F",0,0,0],
+	["Land_WoodenTable_small_F",0,0,0],
+	["OfficeTable_01_new_F",0,0,0],
+	["Land_Mil_WiredFence_F",0,0,0],
+	["Land_Mil_WiredFence_Gate_F",0,0,0],
+	["Land_Mil_WallBig_Gate_F",0,0,0],
+	["Land_Mil_WallBig_4m_F",0,0,0],
+	["Land_HBarrierWall_corridor_F",0,0,0],
+	["Land_BarGate_F",0,0,0],
+	["Land_LandMark_F",0,0,0],
+	["Flag_US_F",0,0,0],
+	["Land_Cargo_Tower_V1_F",0,0,0],
+	["Land_PillboxBunker_01_hex_F",0,0,0],
+	["Land_PillboxBunker_01_rectangle_F",0,0,0],
+	["Land_PillboxWall_01_6m_F",0,0,0],
+	["Land_PillboxWall_01_6m_round_F",0,0,0],
+	["Land_PillboxWall_01_3m_round_F",0,0,0],
+	["Land_PillboxWall_01_3m_F",0,0,0],
+	["Land_BagFence_01_long_green_F",0,0,0],
+	["Land_BagFence_01_round_green_F",0,0,0],
+	["Land_BagFence_01_short_green_F",0,0,0],
+	["Land_BagFence_01_end_green_F",0,0,0]
+		
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
@@ -201,7 +271,7 @@ support_vehicles_extension = [
 
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
-
+	"B_T_UAV_03_F"
 ];
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
