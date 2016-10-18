@@ -77,8 +77,8 @@ if (isnil "IL_Variables") then
 	IL_Para_Drop_ATL = 50;
 	IL_Para_Jump_ATL = 30;
 	//The minimum altitude for parachute opening
-	IL_Para_Drop_Open_ATL = 150;
-	IL_Para_Jump_Open_ATL = 150;
+	IL_Para_Drop_Open_ATL = 85;
+	IL_Para_Jump_Open_ATL = 85;
 	//Parachute get velocity from player or cargo
 	IL_Para_Drop_Velocity = true;
 	IL_Para_Jump_Velocity = true;
