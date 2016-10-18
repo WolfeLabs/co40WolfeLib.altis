@@ -70,6 +70,8 @@ light_vehicles_extension = [
 	["rhsusf_rg33_usmc_d",0,0,8],
 	["rhsusf_rg33_m2_usmc_d",0,5,8],
 	
+	["B_SDV_01_F",0,5,5],
+	
 	["rhsusf_M1083A1P2_B_M2_d_Medical_fmtv_usarmy",0,5,10],
 	["rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy",0,5,10]
 ];
