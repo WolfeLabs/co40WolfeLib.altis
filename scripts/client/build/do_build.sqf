@@ -234,10 +234,10 @@ while { true } do {
 				_vehicle allowDamage false;
 				_vehicle setdir _vehdir;
 				_vehicle setpos _truepos;
-				clearWeaponCargoGlobal _vehicle;
-				clearMagazineCargoGlobal _vehicle;
-				clearItemCargoGlobal _vehicle;
-				clearBackpackCargoGlobal _vehicle;
+				//clearWeaponCargoGlobal _vehicle;
+				//clearMagazineCargoGlobal _vehicle;
+				//clearItemCargoGlobal _vehicle;
+				//clearBackpackCargoGlobal _vehicle;
 				if ( buildtype == 6 || buildtype == 99 ) then {
 					_vehicle setVectorUp [0,0,1];
 				} else {
