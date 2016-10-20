@@ -1,7 +1,7 @@
 /*
 	This should, when complete, allow for whitelisted roles on the server.
 	
-	It will acommplish this through typeOf and GUID checks. 
+	It will acommplish this through typeOf and UID checks. 
 	
 */
 

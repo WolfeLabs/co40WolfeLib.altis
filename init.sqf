@@ -14,7 +14,6 @@ if ( GRLIB_revive > 0 ) then {
 //Wolfe Edits
 [] spawn compile preprocessFileLineNumbers "Wolfe\init_Wolfe.sqf";
 [] execVM "IgiLoad\IgiLoadInit.sqf";
-[] spawn compile preprocessFileLineNumbers "roles\roles.sqf";
 
 /////////////////////////////////
 [] execVM "GREUH\scripts\GREUH_activate.sqf";
