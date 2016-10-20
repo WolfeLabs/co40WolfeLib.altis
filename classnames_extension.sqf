@@ -236,7 +236,7 @@ buildings_extension = [
 	["Land_BagFence_01_round_green_F",0,0,0],
 	["Land_BagFence_01_short_green_F",0,0,0],
 	["Land_BagFence_01_end_green_F",0,0,0]
-		
+	["Land_LandMark_F",0,0,0]	
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
