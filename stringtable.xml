@@ -2534,8 +2534,16 @@
 						&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;
 						</French>
 				</Key>
+				
 				<Key ID="STR_winnerSound">
 					<Original>You're a reall winner, aren't you?</Original>
+				</Key>
+				<Key ID="STR_NOT_AUTHORIZED">
+						<Original>You are not authorized to use this slot on this server.</Original>
+						<French>Vous n'êtes pas authorizé à utiliser la place de sur ce serveur.</French>
+						<German>Du bist auf diesem Server nicht als autorisiert.</German>
+						<Spanish>No estás autorizado para usar el slot de en este servidor.</Spanish>
+						<Russian>Вы не авторизованы, чтобы использовать слот на этом сервере.</Russian>
 				</Key>
 		</Package>
 </Project>
