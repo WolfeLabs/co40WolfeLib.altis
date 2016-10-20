@@ -13,6 +13,7 @@
 */
 
 waitUntil { alive player };
+sleep 2;
 
 wolfeAdmins = /* Full Access */
 	[
