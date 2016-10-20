@@ -5,6 +5,13 @@
 	
 */
 
+/*
+	TEAM DEV NOTES (Remove on release)
+	
+		-Leaders of all types, and Crewmen MAY MERGE/CONVERT to Rifleman Class.
+	
+*/
+
 wolfeAdmins = /* Full Access */
 	[
 		'0', '0', '0'
