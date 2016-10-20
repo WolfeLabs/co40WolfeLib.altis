@@ -42,6 +42,12 @@ if ( !isNull _target ) then {
 				_idmatch = true;
 			};
 		};
+		 
+		if ( !isNil "wolfeCommanders" ) then { // Full Access, they're trusted.
+			if ( ( getPlayerUID _target ) in wolfeCommanders ) then {
+				_idmatch = true;
+			};
+		};
 		
 	if ( !(_idmatch ) ) then { //All Checks Failed, Lobby Kick.
 
