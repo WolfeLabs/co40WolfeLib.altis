@@ -65,3 +65,4 @@ player addMPEventHandler ["MPKilled", {_this spawn kill_manager}];
 /*Wolfe Edits*/
 player enableFatigue false;
 player addEventHandler ["Respawn", {player enableFatigue false}];
+[] spawn compileFinal preprocessFileLineNumbers "scripts\client\roles\enforce_roles.sqf";
