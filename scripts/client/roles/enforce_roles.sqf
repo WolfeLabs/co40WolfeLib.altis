@@ -53,7 +53,7 @@ if ( !isNull _target ) then {
 
 			sleep 1;
 			if ( alive _target ) then {
-				endMission "END2";
+				endMission "End2";
 			};
 		};
 	};
