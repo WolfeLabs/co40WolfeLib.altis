@@ -55,4 +55,12 @@ class CfgDebriefing
 		description = $STR_COMMANDER_NOT_AUTHORIZED;
 		pictureBackground = "";
 	};
+	
+	class End2
+	{
+		title =	$STR_SORRY;
+		subtitle = "Have a talk with Wolfe about it.";
+		description = $STR_NOT_AUTHORIZED;
+		pictureBackground = "";
+	};
 };
