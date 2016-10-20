@@ -7,7 +7,7 @@ _target = player;
 _playerType = typeOf _target;
 
 if ( !isNull _target ) then {
-	if ( player == _target && !([] call F_isAdmin)) then {
+	if (!([] call F_isAdmin)) then {
 
 		[] call compileFinal preprocessFileLineNumbers "roles\roles.sqf";
 

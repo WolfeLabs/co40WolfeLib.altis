@@ -17,7 +17,7 @@ sleep 2;
 
 wolfeAdmins = /* Full Access */
 	[
-		"76561198076424327", "271b2dc864bd5b214be980551f2f29b7", "c9fe96180fc901cd13306f0d2e6a0851"
+		"76561198076424327", "0", "0"
 	];
 
 wolfeMedics = /* Medics */ 
