@@ -8,7 +8,7 @@
 /*
 	TEAM DEV NOTES (Remove on release)
 	
-		-Leaders of all types, and Crewmen MAY MERGE/CONVERT to Rifleman Class.
+		-Leaders of all types, and Crewmen WILL MERGE/CONVERT to Rifleman Class. (mission.sqf)
 	
 */
 
@@ -39,6 +39,6 @@ wolfePilots = /* Pilots */
 		'0', '0', '0', '0'
 	];
 	
-wolfeCommanders = GRLIB_whitelisted_steamids; /* Commanders, set in whitelist.sqf (to be used as a simpler reference in our code*/
+wolfeCommanders = GRLIB_whitelisted_steamids; /* Commanders, set in whitelist.sqf (to be used as a simpler reference in our code)*/
 		
 	
