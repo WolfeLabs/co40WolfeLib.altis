@@ -31,21 +31,6 @@ class Header
 #include "ui\liberation_notifications.hpp"
 #include "ui\mission_params.hpp"
 
-class CfgSounds{
-	
-	sounds[] = {winner};
-	
-	class winner
-	{
-		name = "Winner";
-		sound[] = {"Wolfe\winner.ogg",0.8,1.0};
-		titles[] = 
-		{
-			0, $STR_winnerSound
-		};
-	};
-};
-
 class CfgDebriefing
 {
 	class End1
