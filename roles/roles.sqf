@@ -34,13 +34,6 @@ wolfeSnipers = /* Snipers (Recon)*/
 		'0', '0', '0', '0'
 	];
 	
-wolfeLeaders = /* Team & Squad Leaders */
-	[
-		'0', '0', '0',
-		'0', '0', '0',
-		'0', '0'
-	]; //May soon MERGE with Riflemen
-	
 wolfePilots = /* Pilots */ 
 	[
 		'0', '0', '0', '0'
