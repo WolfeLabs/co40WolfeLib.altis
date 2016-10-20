@@ -1,4 +1,4 @@
-private [ "_target", "_playerType" "_idmatch",];
+private [ "_target", "_playerType", "_idmatch",];
 
 waitUntil { alive player };
 sleep 1;
