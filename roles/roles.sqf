@@ -46,6 +46,6 @@ wolfePilots = /* Pilots */
 		'0', '0', '0', '0'
 	];
 	
-wolfeCommanders = GRLIB_whitelisted_steamids; /* Commanders, set in whitelist.sqf */
+wolfeCommanders = GRLIB_whitelisted_steamids; /* Commanders, set in whitelist.sqf (to be used as a simpler referance in our code*/
 		
 	
