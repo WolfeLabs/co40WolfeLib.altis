@@ -14,7 +14,7 @@
 
 wolfeAdmins = /* Full Access */
 	[
-		'0', '0', '0'
+		'f6d871bab98163bb0b0f85561ce91a79', '271b2dc864bd5b214be980551f2f29b7', 'c9fe96180fc901cd13306f0d2e6a0851'
 	];
 
 wolfeMedics = /* Medics */ 
