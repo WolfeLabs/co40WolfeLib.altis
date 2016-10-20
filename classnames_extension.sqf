@@ -57,7 +57,6 @@ light_vehicles_extension = [
 	["rhsusf_m998_d_4dr_fulltop",0,10,3],
 	["rhsusf_m998_d_4dr_halftop",0,10,3],
 	["rhsusf_m998_d_4dr",0,10,3],
-	["rhsusf_rg33_m2_d",0,10,3],
 	["rhsusf_M1078A1P2_B_M2_d_fmtv_usarmy",0,0,8],
 	["rhsusf_M1078A1P2_B_M2_d_open_fmtv_usarmy",0,0,8],
 	["rhsusf_mkvsoc",0,15,9],
@@ -69,6 +68,8 @@ light_vehicles_extension = [
 	
 	["rhsusf_rg33_usmc_d",0,0,8],
 	["rhsusf_rg33_m2_usmc_d",0,5,8],
+	
+	["B_SDV_01_F",0,5,5],
 	
 	["rhsusf_M1083A1P2_B_M2_d_Medical_fmtv_usarmy",0,5,10],
 	["rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy",0,5,10]
@@ -90,7 +91,6 @@ heavy_vehicles_extension = [
 	["rhsusf_m1a1aim_tuski_d",0,57,20],
 	["rhsusf_m1a2sep1d_usarmy",0,57,20],
 	["rhsusf_m1a2sep1tuskid_usarmy",0,56,20],
-	["rhsusf_m1a2sep1tuskiid_usarmy",0,56,20],
 	["rhsusf_m109d_usarmy",0,55,20],
 	["RHS_M2A2_BUSKI",0,40,15],
 	["RHS_M2A3_BUSKI",0,42,15],
@@ -104,11 +104,7 @@ heavy_vehicles_extension = [
 	["RHS_M2A2",0,50,20],
 	["RHS_M2A3",0,53,22],
 	["RHS_M2A3_BUSKIII",0,55,22],
-	["rhsusf_m113d_usarmy_supply",0,55,24],
-	["RHS_M2A2",0,35,15],
-	["RHS_M2A3",0,42,15],
-	["RHS_M2A3_BUSKIII",0,48,15],
-	["rhsusf_m113d_usarmy_supply",0,40,15]
+	["rhsusf_m113d_usarmy_supply",0,55,24]
 ];
 
 air_vehicles_overwrite = false;
@@ -198,14 +194,6 @@ buildings_extension = [
 	["ACE_Track",0,2,0],
 	["ACE_Wheel",0,2,0],
 	["Land_OfficeChair_01_F",0,0,0],
-	["USAF_MOABdisplay",0,0,0],
-	["missile_cart_W_AGM114",0,10,0],
-	["missile_cart_W_AGM1",0,10,0],
-	["missile_cart_W_AGM2",0,10,0],
-	["missile_cart_W",0,10,0],
-	["missile_cart_W_GBU12",0,10,0],
-	["missile_cart_W_GBU39",0,10,0],
-	["missile_cart_W_Mk82",0,10,0],
 	["Land_LandMark_F",0,0,0],
 	["Land_Sign_WarningMilitaryArea_F",0,0,0],
 	["Land_Sign_WarningMilAreaSmall_F",0,0,0],
@@ -236,7 +224,6 @@ buildings_extension = [
 	["Land_Mil_WallBig_4m_F",0,0,0],
 	["Land_HBarrierWall_corridor_F",0,0,0],
 	["Land_BarGate_F",0,0,0],
-	["Land_LandMark_F",0,0,0],
 	["Flag_US_F",0,0,0],
 	["Land_Cargo_Tower_V1_F",0,0,0],
 	["Land_PillboxBunker_01_hex_F",0,0,0],
@@ -249,7 +236,7 @@ buildings_extension = [
 	["Land_BagFence_01_round_green_F",0,0,0],
 	["Land_BagFence_01_short_green_F",0,0,0],
 	["Land_BagFence_01_end_green_F",0,0,0]
-		
+	["Land_LandMark_F",0,0,0]	
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
