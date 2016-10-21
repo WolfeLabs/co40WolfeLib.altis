@@ -49,7 +49,12 @@ if ( !isNull _target ) then {
 			};
 		};
 		
-	if ( !(_idmatch ) || _playerType == "B_Soldier_F" ) then { //All Checks Failed, Lobby Kick.
+		if( _playerType == "B_Soldier_F" ) //Rifleman, No Checks Needed.
+		{
+			_idmatch = true;
+		};
+		
+	if ( !(_idmatch ) ) then { //All Checks Failed, Lobby Kick.
 
 			sleep 1;
 			if ( alive _target ) then {
