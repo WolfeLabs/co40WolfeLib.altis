@@ -110,7 +110,7 @@ heavy_vehicles_extension = [
 	["RHS_M2A2",0,50,20],
 	["RHS_M2A3",0,53,22],
 	["RHS_M2A3_BUSKIII",0,55,22],
-	["rhsusf_m113d_usarmy_supply",0,55,24,
+	["rhsusf_m113d_usarmy_supply",0,55,24],
 	
 	["rhs_t80",0,60,20],
 	["rhs_t72bd_tv",0,60,20],
