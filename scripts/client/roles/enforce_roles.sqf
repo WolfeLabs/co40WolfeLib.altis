@@ -49,7 +49,6 @@ if ( !isNull _target ) then {
 			};
 		};
 		
-	if ( !(_idmatch ) ) then { //All Checks Failed, Lobby Kick.
 
 			sleep 1;
 			if ( alive _target ) then {
