@@ -49,6 +49,7 @@ if ( !isNull _target ) then {
 			};
 		};
 		
+		if( _playerType == "B_Soldier_F" ) then { //Rifleman, No Checks Needed.
 				_idmatch = true;
 		};
 		
