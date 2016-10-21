@@ -72,7 +72,13 @@ light_vehicles_extension = [
 	["B_SDV_01_F",0,5,5],
 	
 	["rhsusf_M1083A1P2_B_M2_d_Medical_fmtv_usarmy",0,5,10],
-	["rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy",0,5,10]
+	["rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy",0,5,10],
+	
+	["rhs_tigr_msv",0,10,10],
+	["RHS_UAZ_MSV_01",0,10,10],
+	["rhs_tigr_sts_3camo_msv",0,10,10],
+	["RHS_Ural_Flat_MSV_01",0,10,3],
+	["RHS_Ural_MSV_01",0,10,3]
 ];
 
 heavy_vehicles_overwrite = false;
@@ -105,6 +111,22 @@ heavy_vehicles_extension = [
 	["RHS_M2A3",0,53,22],
 	["RHS_M2A3_BUSKIII",0,55,22],
 	["rhsusf_m113d_usarmy_supply",0,55,24]
+	
+	["rhs_t80",0,60,20],
+	["rhs_t72bd_tv",0,60,20],
+	["rhs_t80u45m",0,60,20],
+	["rhs_t90_tv",0,60,20],
+	["rhs_2s3_tv",0,60,20],
+	["rhs_bmp2k_tv",0,50,20],
+	["rhs_bmp1_tv",0,45,20],
+	["rhs_2s3_tv",0,55,25],
+	["rhs_9k79",0,60,25],
+	["rhs_9k79_K",0,60,25],
+	["rhs_9k79_B",0,60,25],
+	["rhs_btr80a_msv",0,60,25],
+	["rhs_btr70_msv",0,60,25],
+	["RHS_Ural_Zu23_MSV_01",0,30,25],
+	["RHS_BM21_MSV_01",0,30,25]
 ];
 
 air_vehicles_overwrite = false;
@@ -172,7 +194,26 @@ air_vehicles_extension = [
 	["USAF_CV22",0,100,50],
 	
 	["LDL_C130J",0,300,500],
-	["USAF_AC130U",0,300,500]
+	["USAF_AC130U",0,300,500],
+	
+	["RHS_Su25SM_vvsc",0,200,30],
+	["RHS_Su25SM_CAS_vvsc",0,200,30],
+	["RHS_Su25SM_KH29_vvsc",0,200,30],
+	["RHS_T50_vvs_054",0,215,30],
+	["RHS_T50_vvs_blueonblue",0,215,30],
+	["RHS_Ka52_UPK23_vvs",0,20,25],
+	["RHS_Ka52_vvs",0,20,25],
+	["RHS_Mi24V_UPK23_vvs",0,20,25],
+	["RHS_Mi24V_FAB_vvs",0,20,25],
+	["RHS_Mi24V_AT_vvs",0,20,25],
+	["RHS_Mi8mt_vvs",0,20,25],
+	["RHS_Mi8mt_Cargo_vvs",0,20,25],
+	["RHS_Mi8AMTSh_FAB_vvs",0,20,25],
+	["USAF_HH60G",0,25,25],
+	["USAF_HH60GMED",0,0,25],
+	["usaf_c5",0,0,525],
+	["USAF_MQ9",0,150,20]
+	
 ];
 
 static_vehicles_overwrite = false;
@@ -183,7 +224,19 @@ static_vehicles_extension = [
 	["RHS_TOW_TriPod_D",0,30,5],
 	["RHS_MK19_TriPod_D",0,25,5],
 	["RHS_M252_D",0,15,5],
-	["RHS_M119_D",0,15,5]
+	["RHS_M119_D",0,15,5],
+	
+	["rhs_D30_vdv",0,15,5],
+	["rhs_D30_at_vdv",0,15,5],
+	["RHS_ZU23_VDV",0,15,5],
+	["rhs_Igla_AA_pod_vdv",0,50,10],
+	["RHS_NSV_TriPod_VDV",0,25,5],
+	["rhs_KORD_high_VDV",0,25,5],
+	["rhs_KORD_VDV",0,25,5],
+	["RHS_AGS30_TriPod_VDV",0,25,5],
+	["rhs_Kornet_9M133_2_vdv",0,30,5],
+	["rhs_Metis_9k115_2_vdv",0,30,5],
+	["rhs_SPG9M_VDV",0,30,5]
 
 ];
 
@@ -252,13 +305,18 @@ support_vehicles_extension = [
 	
 	["rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_d",5,10,10],
 	["rhsusf_M977A4_AMMO_BKIT_M2_usarmy_d",5,10,10],
-	["rhsusf_M977A4_BKIT_M2_usarmy_d",5,10,10]
+	["rhsusf_M977A4_BKIT_M2_usarmy_d",5,10,10],
+	
+	["rhs_gaz66_ammo_msv",5,0,10], //ammo
+	["rhs_gaz66_ap2_msv",5,0,0], //mev
+	["RHS_Ural_Fuel_MSV_01",5,0,0] //fuel
 	
 ];
 
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
-	"B_T_UAV_03_F"
+	"B_T_UAV_03_F",
+	"USAF_MQ9"
 ];
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
@@ -424,11 +482,13 @@ vehicle_repair_sources_extension = [
 	
 vehicle_rearm_sources_extension = [
 	["rhsusf_M977A4_AMMO_BKIT_usarmy_d",5,0,0],
-	["rhsusf_M977A4_AMMO_usarmy_d",5,0,0]
+	["rhsusf_M977A4_AMMO_usarmy_d",5,0,0],
+	["rhs_gaz66_ammo_msv",5,0,10]
 ];
 	
 vehicle_refuel_sources_extension = [
-	["rhsusf_M978A4_usarmy_d",5,0,0]
+	["rhsusf_M978A4_usarmy_d",5,0,0],
+	["RHS_Ural_Fuel_MSV_01",5,0,0]
 ];
 
 // Elite vehicles that should be unlocked through military base capture.
