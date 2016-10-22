@@ -121,7 +121,6 @@ heavy_vehicles_extension = [
 	["rhs_bmp1_tv",0,45,20],
 	["rhs_zsu234_aa",0,55,25],
 	["rhs_9k79",0,60,25],
-	["rhs_9k79_K",0,60,25],
 	["rhs_9k79_B",0,60,25],
 	["rhs_btr80a_msv",0,60,25],
 	["rhs_btr70_msv",0,60,25],
