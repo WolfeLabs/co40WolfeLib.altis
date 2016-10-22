@@ -22,14 +22,14 @@ wolfeAdmins = /* Full Access */
 
 wolfeMedics = /* Medics */ 
 	[
-		"0", "0", "0",
+		"76561198201126286", "0", "0",
 		"0", "0", "0",
 		"0", "0"
 	];
 	
 wolfeEngineers = /* Engineers */ 
 	[
-		"0", "0", "0", "0"
+		"76561198053326389", "0", "0", "0"
 	];
 	
 wolfeSnipers = /* Snipers (Recon)*/ 
@@ -39,7 +39,7 @@ wolfeSnipers = /* Snipers (Recon)*/
 	
 wolfePilots = /* Pilots */ 
 	[
-		"0", "0", "0", "0"
+		"76561198053326389", "0", "0", "0"
 	];
 	
 wolfeCommanders = GRLIB_whitelisted_steamids; /* Commanders, set in whitelist.sqf (to be used as a simpler reference in our code)*/
