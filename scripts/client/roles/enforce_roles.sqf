@@ -49,6 +49,9 @@ if ( !isNull _target ) then {
 			};
 		};
 		
+				_idmatch = true;
+		};
+		
 	if ( !(_idmatch ) ) then { //All Checks Failed, Lobby Kick.
 
 			sleep 1;
