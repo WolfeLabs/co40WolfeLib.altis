@@ -269,7 +269,7 @@ static_vehicles_extension = [
 	["RHS_AGS30_TriPod_VDV",0,25,5],
 	["rhs_Kornet_9M133_2_vdv",0,30,5],
 	["rhs_Metis_9k115_2_vdv",0,30,5],
-	["rhs_SPG9M_VDV",0,30,5,
+	["rhs_SPG9M_VDV",0,30,5],
 	["ffaa_lag40_tripode",0,30,5],
 	["ffaa_m2_tripode",0,30,5],
 	["ffaa_milan_tripode",0,30,5],
@@ -349,7 +349,7 @@ support_vehicles_extension = [
 	["rhs_gaz66_ap2_msv",5,0,0], //mev
 	["RHS_Ural_Fuel_MSV_01",5,0,0], //fuel
 	
-	["ffaa_ar_lcm",5,0,0 //big ass fucking boat.
+	["ffaa_ar_lcm",5,0,0] //big ass fucking boat.
 	
 ];
 
