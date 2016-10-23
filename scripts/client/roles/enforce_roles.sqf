@@ -49,9 +49,8 @@ if ( !isNull _target ) then {
 			};
 		};
 		
-		if( _playerType == "B_Soldier_F" ) //Rifleman, No Checks Needed.
-		{
-			_idmatch = true;
+		if( _playerType == "B_Soldier_F" ) then { //Rifleman, No Checks Needed.
+				_idmatch = true;
 		};
 		
 	if ( !(_idmatch ) ) then { //All Checks Failed, Lobby Kick.

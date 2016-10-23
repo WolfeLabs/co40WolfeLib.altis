@@ -78,7 +78,19 @@ light_vehicles_extension = [
 	["RHS_UAZ_MSV_01",0,10,10],
 	["rhs_tigr_sts_3camo_msv",0,10,10],
 	["RHS_Ural_Flat_MSV_01",0,10,3],
-	["RHS_Ural_MSV_01",0,10,3]
+	["RHS_Ural_MSV_01",0,10,3],
+	
+	["ffaa_et_anibal",0,10,10],
+	["ffaa_et_rg31_samson",0,10,10],
+	["ffaa_et_vamtac_lag40",0,10,10],
+	["ffaa_et_vamtac_m2",0,10,10],
+	["ffaa_et_vamtac_tow",0,10,10],
+	["ffaa_et_vamtac_ume",0,5,5], /*MEV*/
+	["ffaa_et_vamtac_cardom",0,10,10],
+	["ffaa_et_vamtac_crows",0,10,10],
+	["ffaa_et_vamtac_mistral",0,10,10],
+	["ffaa_ar_supercat",0,10,10],
+	["ffaa_ar_zodiac_hurricane",0,10,10]
 ];
 
 heavy_vehicles_overwrite = false;
@@ -126,7 +138,14 @@ heavy_vehicles_extension = [
 	["rhs_btr80a_msv",0,60,25],
 	["rhs_btr70_msv",0,60,25],
 	["RHS_Ural_Zu23_MSV_01",0,30,25],
-	["RHS_BM21_MSV_01",0,30,25]
+	["RHS_BM21_MSV_01",0,30,25],
+	
+	["ffaa_et_leopardo",0,75,20],
+	["ffaa_et_pizarro_mauser",0,50,20],
+	["ffaa_et_toa_m2",0,48,15],
+	["ffaa_et_toa_ambulancia",0,48,15], /*MEV*/
+	["ffaa_et_toa_zapador",0,48,15],
+	["ffaa_et_toa_mando",0,48,15]
 ];
 
 air_vehicles_overwrite = false;
@@ -212,7 +231,21 @@ air_vehicles_extension = [
 	["USAF_HH60G",0,25,25],
 	["USAF_HH60GMED",0,0,25],
 	["usaf_c5",0,0,525],
-	["USAF_MQ9",0,150,20]
+	["USAF_MQ9",0,150,20],
+	
+	["ffaa_ar_harrier_cap",0,200,30],
+	["ffaa_ar_harrier_cas",0,200,30],
+	["ffaa_ar_harrier_gbu",0,200,30],
+	["ffaa_ar_harrier_mr",0,200,30],
+	["ffaa_ea_hercules",0,0,65],
+	["ffaa_ea_hercules_camo",0,0,65],
+	["ffaa_famet_cougar_olive",0,25,25],
+	["ffaa_famet_ch47_des_mg",0,25,25],
+	["ffaa_famet_ch47_mg",0,25,25],
+	["ffaa_famet_tigre_aa",78,25],
+	["ffaa_famet_tigre_at",0,78,25],
+	["ffaa_famet_tigre_cas",0,78,25],
+	["ffaa_et_searcherIII",0,75,25]
 	
 ];
 
@@ -236,7 +269,12 @@ static_vehicles_extension = [
 	["RHS_AGS30_TriPod_VDV",0,25,5],
 	["rhs_Kornet_9M133_2_vdv",0,30,5],
 	["rhs_Metis_9k115_2_vdv",0,30,5],
-	["rhs_SPG9M_VDV",0,30,5]
+	["rhs_SPG9M_VDV",0,30,5,
+	["ffaa_lag40_tripode",0,30,5],
+	["ffaa_m2_tripode",0,30,5],
+	["ffaa_milan_tripode",0,30,5],
+	["ffaa_mistral_tripode",0,30,5],
+	["ffaa_spike_tripode",0,30,5]
 
 ];
 
@@ -309,14 +347,17 @@ support_vehicles_extension = [
 	
 	["rhs_gaz66_ammo_msv",5,0,10], //ammo
 	["rhs_gaz66_ap2_msv",5,0,0], //mev
-	["RHS_Ural_Fuel_MSV_01",5,0,0] //fuel
+	["RHS_Ural_Fuel_MSV_01",5,0,0], //fuel
+	
+	["ffaa_ar_lcm",5,0,0 //big ass fucking boat.
 	
 ];
 
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
 	"B_T_UAV_03_F",
-	"USAF_MQ9"
+	"USAF_MQ9",
+	"ffaa_et_searcherIII"
 ];
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
