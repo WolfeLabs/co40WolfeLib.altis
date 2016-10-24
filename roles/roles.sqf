@@ -46,7 +46,7 @@ wolfeEngineers = /* Engineers */
 wolfeSnipers = /* Snipers (Recon)*/ 
 	[
 		"76561198106057414", //Madie
-		"0", 
+		"76561198199754407", //Cole
 		"0", 
 		"0", 
 		"0"
