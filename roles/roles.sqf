@@ -27,7 +27,7 @@ wolfeMedics = /* Medics */
 	[
 		"76561198201126286", //Diesel
 		"76561198196194405", //SBG
-		"0",
+		"76561198106057414", //Madie
 		"0", 
 		"0", 
 		"0",
@@ -45,6 +45,7 @@ wolfeEngineers = /* Engineers */
 	
 wolfeSnipers = /* Snipers (Recon)*/ 
 	[
+		"76561198106057414", //Madie
 		"0", 
 		"0", 
 		"0", 
@@ -54,6 +55,7 @@ wolfeSnipers = /* Snipers (Recon)*/
 wolfePilots = /* Pilots */ 
 	[
 		"76561198053326389", //aNUL | Greg
+		"76561198106057414", //Madie
 		"0", 
 		"0", 
 		"0"
