@@ -38,6 +38,7 @@ wolfeMedics = /* Medics */
 wolfeEngineers = /* Engineers */ 
 	[
 		"76561198053326389", //aNUL | Greg
+		"76561198199754407", //Cole
 		"0", 
 		"0", 
 		"0"
