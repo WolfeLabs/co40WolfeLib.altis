@@ -265,7 +265,7 @@ while { true } do {
 
 				};
 				
-				if{_classname == "Land_Medevac_house_V1_F" || _classname == "Land_Medevac_HQ_V1_F"} then{ _vehicle setVariable["ace_medical_isMedicalFacility",true,true];}; //Should auto flag med fac. as ACE med fac.(s) Woop.
+				if{ (_classname == "Land_Medevac_house_V1_F") || (_classname == "Land_Medevac_HQ_V1_F") } then { _vehicle setVariable["ace_medical_isMedicalFacility",true,true]; }; //Should auto flag med fac. as ACE med fac.(s) Woop.
 			};
 
 			if ( _idactcancel != -1 ) then {
