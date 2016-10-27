@@ -168,8 +168,6 @@ air_vehicles_extension = [
 	["JS_JC_FA18F",0,350,40],
 	["sab_C130_CSP",0,0,100],
 	["sab_C130_J",0,0,100],
-	["usaf_f22",0,500,75],
-	["USAF_F35A",0,600,75],
 	["I_Plane_Fighter_03_AA_F",0,50,30],
 	["I_Plane_Fighter_03_CAS_F",0,100,30],
 	["RHS_AH64D",0,75,25],
@@ -200,20 +198,9 @@ air_vehicles_extension = [
 	["RHS_UH60M_MEV",0,0,25],
 	
 	["B_T_UAV_03_F",0,45,30],
-	
-	["usaf_b1b",0,275,60],
-	["usaf_b2",0,300,65], //oh bby new b2
-	
-	["USAF_F35A",0,150,30],
-	["USAF_A10",0,200,30],
-	["USAF_F16",0,150,30],
-	["usaf_f22",0,150,30],
-	
-	["USAF_C17",0,0,500],
-	["USAF_CV22",0,100,50],
+
 	
 	["LDL_C130J",0,300,500],
-	["USAF_AC130U",0,300,500],
 	
 	["RHS_Su25SM_vvsc",0,200,30],
 	["RHS_Su25SM_CAS_vvsc",0,200,30],
@@ -228,10 +215,6 @@ air_vehicles_extension = [
 	["RHS_Mi8mt_vvs",0,20,25],
 	["RHS_Mi8mt_Cargo_vvs",0,20,25],
 	["RHS_Mi8AMTSh_FAB_vvs",0,20,25],
-	["USAF_HH60G",0,25,25],
-	["USAF_HH60GMED",0,0,25],
-	["usaf_c5",0,0,525],
-	["USAF_MQ9",0,150,20],
 	
 	["ffaa_ar_harrier_cap",0,200,30],
 	["ffaa_ar_harrier_cas",0,200,30],
@@ -360,7 +343,6 @@ support_vehicles_extension = [
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
 	"B_T_UAV_03_F",
-	"USAF_MQ9",
 	"ffaa_et_searcherIII"
 ];
 
