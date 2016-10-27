@@ -8,5 +8,8 @@
 ["ace_smellyPirateHooker", "Smelly Pirate Hooker", "ACE_SpraypaintBlack", //SPH Tag
 	["Wolfe\Tags\smellyPirateHooker\tag.paa"], ""] call ace_tagging_fnc_addCustomTag;
 
-["ace_forLiberation", "Wolverines", "ACE_SpraypaintBlack", //For Liberation Tag
+["ace_forLiberation", "'For Liberation!'", "ACE_SpraypaintBlack", //For Liberation Tag
 	["Wolfe\Tags\forLiberation\tag.paa"], ""] call ace_tagging_fnc_addCustomTag;
+	
+["ace_damnedFew", "The Damned Few", "ACE_SpraypaintRed", //SPH Tag
+	["Wolfe\Tags\theDamned\tag.paa"], "Wolfe\Tags\theDamned\icon.paa"] call ace_tagging_fnc_addCustomTag;
