@@ -228,7 +228,7 @@ air_vehicles_extension = [
 	["ffaa_famet_tigre_aa",78,25],
 	["ffaa_famet_tigre_at",0,78,25],
 	["ffaa_famet_tigre_cas",0,78,25],
-	["ffaa_et_searcherIII",0,75,25],
+	["ffaa_et_searcherIII",0,0,25],
 	
 	["CHO_F35B_AA",0,200,30], //f-35 aa
 	["CHO_F35B_CAS",0,200,30], //f-35 cas
