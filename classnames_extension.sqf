@@ -90,7 +90,12 @@ light_vehicles_extension = [
 	["ffaa_et_vamtac_crows",0,10,10],
 	["ffaa_et_vamtac_mistral",0,10,10],
 	["ffaa_ar_supercat",0,10,10],
-	["ffaa_ar_zodiac_hurricane",0,10,10]
+	["ffaa_ar_zodiac_hurricane",0,10,10],
+	
+	["BWA3_Eagle_Fleck",0,10,10],
+	["BWA3_Eagle_FLW100_Fleck",0,10,10],
+	["BWA3_Eagle_Tropen",0,10,10],
+	["BWA3_Eagle_FLW100_Tropen",0,10,10]
 ];
 
 heavy_vehicles_overwrite = false;
@@ -145,7 +150,12 @@ heavy_vehicles_extension = [
 	["ffaa_et_toa_m2",0,48,15],
 	["ffaa_et_toa_ambulancia",0,48,15], /*MEV*/
 	["ffaa_et_toa_zapador",0,48,15],
-	["ffaa_et_toa_mando",0,48,15]
+	["ffaa_et_toa_mando",0,48,15],
+	
+	["BWA3_Puma_Fleck",0,48,15],
+	["BWA3_Puma_Tropen",0,48,15],
+	["BWA3_Leopard2A6M_Fleck",0,48,15],
+	["BWA3_Leopard2A6M_Tropen",0,48,15]
 ];
 
 air_vehicles_overwrite = false;
@@ -225,7 +235,7 @@ air_vehicles_extension = [
 	["ffaa_famet_cougar_olive",0,25,25],
 	["ffaa_famet_ch47_des_mg",0,25,25],
 	["ffaa_famet_ch47_mg",0,25,25],
-	["ffaa_famet_tigre_aa",78,25],
+	["ffaa_famet_tigre_aa",0,78,25],
 	["ffaa_famet_tigre_at",0,78,25],
 	["ffaa_famet_tigre_cas",0,78,25],
 	["ffaa_et_searcherIII",0,0,25],
@@ -233,6 +243,14 @@ air_vehicles_extension = [
 	["CHO_F35B_AA",0,200,30], //f-35 aa
 	["CHO_F35B_CAS",0,200,30], //f-35 cas
 	["CHO_F35B_LGB",0,200,30] //f-35 lgb
+	
+	["BWA3_Tiger_Gunpod_FZ",0,78,25],
+	["BWA3_Tiger_Gunpod_Heavy",0,78,25],
+	["BWA3_Tiger_Gunpod_PARS",0,78,25],
+	["BWA3_Tiger_RMK_FZ",0,78,25],
+	["BWA3_Tiger_RMK_Heavy",0,78,25],
+	["BWA3_Tiger_RMK_PARS",0,78,25],
+	["BWA3_Tiger_RMK_Universal",0,78,25]
 	
 ];
 
