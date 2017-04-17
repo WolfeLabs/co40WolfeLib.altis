@@ -495,7 +495,7 @@ GRLIB_ignore_colisions_when_building = [
 	"Sign_Sphere100cm_F",
 	"TMR_Autorest_Georef",
 	"Land_ClutterCutter_large_F",
-	
+	"Land_MkV_Roadway",
 	"Land_TentHangar_V1_F",
 	"rhsusf_mkvsoc"
 	//Need to add more here.
