@@ -79,6 +79,7 @@ light_vehicles_extension = [
 	["rhs_tigr_sts_3camo_msv",0,10,10],
 	["RHS_Ural_Flat_MSV_01",0,10,3],
 	["RHS_Ural_MSV_01",0,10,3],
+
 	
 	["ffaa_et_anibal",0,10,10],
 	["ffaa_et_rg31_samson",0,10,10],
@@ -95,7 +96,15 @@ light_vehicles_extension = [
 	["BWA3_Eagle_Fleck",0,10,10],
 	["BWA3_Eagle_FLW100_Fleck",0,10,10],
 	["BWA3_Eagle_Tropen",0,10,10],
-	["BWA3_Eagle_FLW100_Tropen",0,10,10]
+	["BWA3_Eagle_FLW100_Tropen",0,10,10],
+	
+	["IP_B_KSK_MRAP_03_Tropic_F",0,15,15],
+	["IP_B_KSK_MRAP_03_hmg_Tropic_F",0,15,15],
+	
+	["rhsusf_M1237_M2_usarmy_d",0,10,10],
+	["rhsusf_M1237_MK19_usarmy_d",0,10,10],
+	["rhsusf_mrzr4_d",0,5,5]
+
 ];
 
 heavy_vehicles_overwrite = false;
@@ -250,8 +259,16 @@ air_vehicles_extension = [
 	["BWA3_Tiger_RMK_FZ",0,78,25],
 	["BWA3_Tiger_RMK_Heavy",0,78,25],
 	["BWA3_Tiger_RMK_PARS",0,78,25],
-	["BWA3_Tiger_RMK_Universal",0,78,25]
+	["BWA3_Tiger_RMK_Universal",0,78,25],
 	
+	["RHS_TU95MS_vvs_old",0,85,30],
+	["rhs_mi28n_vvs",0,78,25],
+	["rhs_mi28n_s13_vvs",0,78,25],
+	["min_rf_Plane_CAS",0,75,20],
+	["rhs_l159_CDF_CAP",0,75,20],
+	["rhs_l159_CDF_CAS",0,75,20],
+	["rhs_l159_CDF_plamen",0,75,20],
+	["rhs_l159_CDF",0,75,20]
 ];
 
 static_vehicles_overwrite = false;
