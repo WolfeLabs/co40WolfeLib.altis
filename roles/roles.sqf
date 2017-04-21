@@ -17,31 +17,51 @@ sleep 2;
 
 wolfeAdmins = /* Full Access */
 	[
-		"76561198076424327", "76561197964255133", "76561198082992671", "76561198136964498"
+		"76561198076424327", //Patches
+		"76561197964255133", //Reaper
+		"76561198082992671", //Phantom
+		"76561198136964498" //Viking Actual | Odin
 	];
 
 wolfeMedics = /* Medics */ 
 	[
-		"76561198201126286", "0", "0",
-		"0", "0", "0",
-		"0", "0"
+		"76561198201126286", //Diesel
+		"76561198196194405", //SBG
+		"76561198106057414", //Madie
+		"0", 
+		"0", 
+		"0",
+		"0", 
+		"0"
 	];
 	
 wolfeEngineers = /* Engineers */ 
 	[
-		"76561198053326389", "0", "0", "0"
+		"76561198053326389", //aNUL | Greg
+		"76561198199754407", //Cole
+		"0", 
+		"0", 
+		"0"
 	];
 	
 wolfeSnipers = /* Snipers (Recon)*/ 
 	[
-		"0", "0", "0", "0"
+		"76561198106057414", //Madie
+		"76561198199754407", //Cole
+		"0", 
+		"0", 
+		"0"
 	];
 	
 wolfePilots = /* Pilots */ 
 	[
-		"76561198053326389", "0", "0", "0"
+		"76561198053326389", //aNUL | Greg
+		"76561198106057414", //Madie
+		"0", 
+		"0", 
+		"0"
 	];
 	
-wolfeCommanders = GRLIB_whitelisted_steamids; /* Commanders, set in whitelist.sqf (to be used as a simpler reference in our code)*/
+// wolfeCommanders = GRLIB_whitelisted_steamids; /* Commanders, set in whitelist.sqf (to be used as a simpler reference in our code)*/
 		
 	

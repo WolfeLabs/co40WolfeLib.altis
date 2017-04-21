@@ -225,7 +225,7 @@ while { true } do {
 				[ [ ((build_lists select buildtype) select buildindex) select 2 ] , "cancel_build_remote_call" ] call BIS_fnc_MP;
 			};
 
-			if ( build_confirmed == 2 ) then {
+			if ( build_confirmed == 2 ) then { //Actually Building it Here
 				_vehpos = getpos _vehicle;
 				_vehdir = getdir _vehicle;
 				deleteVehicle _vehicle;
@@ -264,6 +264,8 @@ while { true } do {
 					{ _x addMPEventHandler ["MPKilled", {_this spawn kill_manager}]; } foreach (crew _vehicle);
 
 				};
+				
+				if ( (_classname == "Land_Medevac_house_V1_F") || (_classname == "Land_Medevac_HQ_V1_F") ) then { _vehicle setVariable["ace_medical_isMedicalFacility",true,true]; }; //Should auto flag med fac. as ACE med fac.(s) Woop.
 			};
 
 			if ( _idactcancel != -1 ) then {

@@ -79,6 +79,7 @@ light_vehicles_extension = [
 	["rhs_tigr_sts_3camo_msv",0,10,10],
 	["RHS_Ural_Flat_MSV_01",0,10,3],
 	["RHS_Ural_MSV_01",0,10,3],
+
 	
 	["ffaa_et_anibal",0,10,10],
 	["ffaa_et_rg31_samson",0,10,10],
@@ -90,7 +91,20 @@ light_vehicles_extension = [
 	["ffaa_et_vamtac_crows",0,10,10],
 	["ffaa_et_vamtac_mistral",0,10,10],
 	["ffaa_ar_supercat",0,10,10],
-	["ffaa_ar_zodiac_hurricane",0,10,10]
+	["ffaa_ar_zodiac_hurricane",0,10,10],
+	
+	["BWA3_Eagle_Fleck",0,10,10],
+	["BWA3_Eagle_FLW100_Fleck",0,10,10],
+	["BWA3_Eagle_Tropen",0,10,10],
+	["BWA3_Eagle_FLW100_Tropen",0,10,10],
+	
+	["IP_B_KSK_MRAP_03_Tropic_F",0,15,15],
+	["IP_B_KSK_MRAP_03_hmg_Tropic_F",0,15,15],
+	
+	["rhsusf_M1237_M2_usarmy_d",0,10,10],
+	["rhsusf_M1237_MK19_usarmy_d",0,10,10],
+	["rhsusf_mrzr4_d",0,5,5]
+
 ];
 
 heavy_vehicles_overwrite = false;
@@ -145,7 +159,13 @@ heavy_vehicles_extension = [
 	["ffaa_et_toa_m2",0,48,15],
 	["ffaa_et_toa_ambulancia",0,48,15], /*MEV*/
 	["ffaa_et_toa_zapador",0,48,15],
-	["ffaa_et_toa_mando",0,48,15]
+	["ffaa_et_toa_mando",0,48,15],
+	
+	["BWA3_Puma_Fleck",0,48,15],
+	["BWA3_Puma_Tropen",0,48,15],
+	["BWA3_Leopard2A6M_Fleck",0,48,15],
+	["BWA3_Leopard2A6M_Tropen",0,48,15]
+
 ];
 
 air_vehicles_overwrite = false;
@@ -168,8 +188,6 @@ air_vehicles_extension = [
 	["JS_JC_FA18F",0,350,40],
 	["sab_C130_CSP",0,0,100],
 	["sab_C130_J",0,0,100],
-	["usaf_f22",0,500,75],
-	["USAF_F35A",0,600,75],
 	["I_Plane_Fighter_03_AA_F",0,50,30],
 	["I_Plane_Fighter_03_CAS_F",0,100,30],
 	["RHS_AH64D",0,75,25],
@@ -200,20 +218,9 @@ air_vehicles_extension = [
 	["RHS_UH60M_MEV",0,0,25],
 	
 	["B_T_UAV_03_F",0,45,30],
-	
-	["usaf_b1b",0,275,60],
-	["usaf_b2",0,300,65], //oh bby new b2
-	
-	["USAF_F35A",0,150,30],
-	["USAF_A10",0,200,30],
-	["USAF_F16",0,150,30],
-	["usaf_f22",0,150,30],
-	
-	["USAF_C17",0,0,500],
-	["USAF_CV22",0,100,50],
+
 	
 	["LDL_C130J",0,300,500],
-	["USAF_AC130U",0,300,500],
 	
 	["RHS_Su25SM_vvsc",0,200,30],
 	["RHS_Su25SM_CAS_vvsc",0,200,30],
@@ -228,10 +235,6 @@ air_vehicles_extension = [
 	["RHS_Mi8mt_vvs",0,20,25],
 	["RHS_Mi8mt_Cargo_vvs",0,20,25],
 	["RHS_Mi8AMTSh_FAB_vvs",0,20,25],
-	["USAF_HH60G",0,25,25],
-	["USAF_HH60GMED",0,0,25],
-	["usaf_c5",0,0,525],
-	["USAF_MQ9",0,150,20],
 	
 	["ffaa_ar_harrier_cap",0,200,30],
 	["ffaa_ar_harrier_cas",0,200,30],
@@ -242,11 +245,32 @@ air_vehicles_extension = [
 	["ffaa_famet_cougar_olive",0,25,25],
 	["ffaa_famet_ch47_des_mg",0,25,25],
 	["ffaa_famet_ch47_mg",0,25,25],
-	["ffaa_famet_tigre_aa",78,25],
+	["ffaa_famet_tigre_aa",0,78,25],
 	["ffaa_famet_tigre_at",0,78,25],
 	["ffaa_famet_tigre_cas",0,78,25],
-	["ffaa_et_searcherIII",0,75,25]
+	["ffaa_et_searcherIII",0,0,25],
 	
+	["CHO_F35B_AA",0,200,30], //f-35 aa
+	["CHO_F35B_CAS",0,200,30], //f-35 cas
+	["CHO_F35B_LGB",0,200,30], //f-35 lgb
+	
+	["BWA3_Tiger_Gunpod_FZ",0,78,25],
+	["BWA3_Tiger_Gunpod_Heavy",0,78,25],
+	["BWA3_Tiger_Gunpod_PARS",0,78,25],
+	["BWA3_Tiger_RMK_FZ",0,78,25],
+	["BWA3_Tiger_RMK_Heavy",0,78,25],
+	["BWA3_Tiger_RMK_PARS",0,78,25],
+	["BWA3_Tiger_RMK_Universal",0,78,25],
+	
+	["RHS_TU95MS_vvs_old",0,85,30],
+	["rhs_mi28n_vvs",0,78,25],
+	["rhs_mi28n_s13_vvs",0,78,25],
+	["min_rf_Plane_CAS",0,75,20],
+	["rhs_l159_CDF_CAP",0,75,20],
+	["rhs_l159_CDF_CAS",0,75,20],
+	["rhs_l159_CDF_plamen",0,75,20],
+	["rhs_l159_CDF",0,75,20]
+
 ];
 
 static_vehicles_overwrite = false;
@@ -269,7 +293,7 @@ static_vehicles_extension = [
 	["RHS_AGS30_TriPod_VDV",0,25,5],
 	["rhs_Kornet_9M133_2_vdv",0,30,5],
 	["rhs_Metis_9k115_2_vdv",0,30,5],
-	["rhs_SPG9M_VDV",0,30,5,
+	["rhs_SPG9M_VDV",0,30,5],
 	["ffaa_lag40_tripode",0,30,5],
 	["ffaa_m2_tripode",0,30,5],
 	["ffaa_milan_tripode",0,30,5],
@@ -328,6 +352,7 @@ buildings_extension = [
 	["Land_BagFence_01_short_green_F",0,0,0],
 	["Land_BagFence_01_end_green_F",0,0,0],
 	["Land_LandMark_F",0,0,0]	
+
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
@@ -349,14 +374,13 @@ support_vehicles_extension = [
 	["rhs_gaz66_ap2_msv",5,0,0], //mev
 	["RHS_Ural_Fuel_MSV_01",5,0,0], //fuel
 	
-	["ffaa_ar_lcm",5,0,0 //big ass fucking boat.
+	["ffaa_ar_lcm",5,0,0] //big ass fucking boat.
 	
 ];
 
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
 	"B_T_UAV_03_F",
-	"USAF_MQ9",
 	"ffaa_et_searcherIII"
 ];
 
