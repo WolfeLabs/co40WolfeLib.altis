@@ -103,7 +103,10 @@ light_vehicles_extension = [
 	
 	["rhsusf_M1237_M2_usarmy_d",0,10,10],
 	["rhsusf_M1237_MK19_usarmy_d",0,10,10],
-	["rhsusf_mrzr4_d",0,5,5]
+	["rhsusf_mrzr4_d",0,5,5],
+	["rhsgref_cdf_reg_uaz_dshkm",0,5,5],
+	["rhsgref_cdf_reg_uaz_ags",0,5,5],
+	["rhsgref_cdf_reg_uaz_spg9",0,5,5]
 
 ];
 
@@ -148,7 +151,6 @@ heavy_vehicles_extension = [
 	["rhs_zsu234_aa",0,55,25],
 	["rhs_9k79",0,60,25],
 	["rhs_9k79_K",0,60,25],
-	["rhs_9k79_B",0,60,25],
 	["rhs_btr80a_msv",0,60,25],
 	["rhs_btr70_msv",0,60,25],
 	["RHS_Ural_Zu23_MSV_01",0,30,25],
@@ -351,7 +353,9 @@ buildings_extension = [
 	["Land_BagFence_01_round_green_F",0,0,0],
 	["Land_BagFence_01_short_green_F",0,0,0],
 	["Land_BagFence_01_end_green_F",0,0,0],
-	["Land_LandMark_F",0,0,0]	
+	["Land_LandMark_F",0,0,0],
+	["rhs_Flag_Russia_F",0,0,0],
+	["IP_Flag_Germany_F",0,0,0]
 
 ];
 
