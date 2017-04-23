@@ -165,6 +165,7 @@ heavy_vehicles_extension = [
 	["BWA3_Puma_Tropen",0,48,15],
 	["BWA3_Leopard2A6M_Fleck",0,48,15],
 	["BWA3_Leopard2A6M_Tropen",0,48,15]
+
 ];
 
 air_vehicles_overwrite = false;
@@ -251,7 +252,7 @@ air_vehicles_extension = [
 	
 	["CHO_F35B_AA",0,200,30], //f-35 aa
 	["CHO_F35B_CAS",0,200,30], //f-35 cas
-	["CHO_F35B_LGB",0,200,30] //f-35 lgb
+	["CHO_F35B_LGB",0,200,30], //f-35 lgb
 	
 	["BWA3_Tiger_Gunpod_FZ",0,78,25],
 	["BWA3_Tiger_Gunpod_Heavy",0,78,25],
@@ -269,6 +270,7 @@ air_vehicles_extension = [
 	["rhs_l159_CDF_CAS",0,75,20],
 	["rhs_l159_CDF_plamen",0,75,20],
 	["rhs_l159_CDF",0,75,20]
+
 ];
 
 static_vehicles_overwrite = false;
@@ -350,6 +352,7 @@ buildings_extension = [
 	["Land_BagFence_01_short_green_F",0,0,0],
 	["Land_BagFence_01_end_green_F",0,0,0],
 	["Land_LandMark_F",0,0,0]	
+
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
