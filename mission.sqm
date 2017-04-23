@@ -1,4 +1,4 @@
-version=52;
+version=53;
 class EditorData
 {
 	moveGridStep=1;
@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=603;
+		nextID=607;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14549.619,63.157745,5765.3081};
-		dir[]={-0.36530894,-0.56481737,0.74010926};
-		up[]={-0.25004005,0.82514632,0.50657547};
-		aside[]={0.89682025,-1.825043e-006,0.442671};
+		pos[]={14523.33,61.168816,5826.54};
+		dir[]={-0.04158299,-0.84837478,0.52798074};
+		up[]={-0.066612087,0.52936405,0.84576011};
+		aside[]={0.99702317,-6.7734236e-006,0.078535169};
 	};
 };
 binarizationWanted=0;
@@ -43,6 +43,7 @@ addons[]=
 	"A3_Structures_F_Mil_Fortification",
 	"ace_cargo",
 	"A3_Weapons_F_Ammoboxes",
+	"ace_rearm",
 	"ace_dragging",
 	"A3_Structures_F_Heli_Ind_Machines",
 	"A3_Structures_F_Heli_Items_Airport",
@@ -65,26 +66,26 @@ addons[]=
 	"ace_ui",
 	"ace_winddeflection",
 	"ace_zeus",
-	"ace_rearm",
 	"ace_refuel",
 	"ace_repair",
 	"ace_medical",
 	"ace_medical_menu",
 	"task_force_radio_items",
 	"A3_Modules_F_Heli_Misc",
-	"A3_Modules_F_Curator_Curator"
+	"A3_Modules_F_Curator_Curator",
+	"ace_spectator"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=39;
+		items=40;
 		class Item0
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item1
 		{
@@ -98,35 +99,35 @@ class AddonsMetaData
 			className="A3_Air_F";
 			name="Arma 3 Alpha - Aircrafts";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item3
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item4
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item5
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item6
 		{
 			className="A3_Structures_F_EPC";
 			name="Arma 3 Win Episode - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item7
 		{
@@ -140,7 +141,7 @@ class AddonsMetaData
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item9
 		{
@@ -154,152 +155,152 @@ class AddonsMetaData
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item11
+		{
+			className="ace_rearm";
+			name="ACE3 - Rearm";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item12
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item12
+		class Item13
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item14
 		{
 			className="A3_Air_F_Beta";
 			name="Arma 3 Beta - Aircrafts";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item15
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item16
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item16
+		class Item17
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item18
 		{
 			className="A3_Data_F_Exp_A";
 			name="Arma 3 Nexus Update - Main Configuration";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item19
 		{
 			className="ace_advanced_fatigue";
 			name="ACE3 - Advanced Fatigue";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item19
+		class Item20
 		{
 			className="ace_advanced_throwing";
 			name="ACE3 - Advanced Throwing";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item20
+		class Item21
 		{
 			className="ace_respawn";
 			name="ACE3 - Respawn";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item21
+		class Item22
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item22
+		class Item23
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item23
+		class Item24
 		{
 			className="ace_map_gestures";
 			name="ACE3 - Map Gestures";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item24
+		class Item25
 		{
 			className="ace_microdagr";
 			name="ACE3 - MicroDAGR";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item25
+		class Item26
 		{
 			className="ace_nightvision";
 			name="ACE3 - Night Vision";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item26
+		class Item27
 		{
 			className="ace_finger";
 			name="ACE3 - Finger";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item27
+		class Item28
 		{
 			className="ace_tagging";
 			name="ACE3 - Tagging";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item28
+		class Item29
 		{
 			className="ace_ui";
 			name="ACE3 - UI";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item29
+		class Item30
 		{
 			className="ace_winddeflection";
 			name="ACE3 - Wind Deflection";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item30
+		class Item31
 		{
 			className="ace_zeus";
 			name="ACE3 - Zeus";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item31
-		{
-			className="ace_rearm";
-			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
@@ -343,14 +344,21 @@ class AddonsMetaData
 			className="A3_Modules_F_Heli";
 			name="Arma 3 Helicopters - Scripted Modules";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item38
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
+		};
+		class Item39
+		{
+			className="ace_spectator";
+			name="ACE3 - Spectator";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
 		};
 	};
 };
@@ -384,7 +392,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=488;
+		items=489;
 		class Item0
 		{
 			dataType="Marker";
@@ -5514,12 +5522,14 @@ class Mission
 					};
 					id=455;
 					type="B_Soldier_lite_F";
+					atlOffset=3.0517578e-005;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=454;
+			atlOffset=3.0517578e-005;
 		};
 		class Item436
 		{
@@ -8627,7 +8637,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14501.437,9.1223097,5843.0771};
-				angles[]={0.042641956,0,5.9590368};
+				angles[]={0.042638395,0,5.959043};
 			};
 			id=527;
 			type="ace_map_gestures_moduleGroupSettings";
@@ -8713,7 +8723,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14507.335,7.6233864,5843.5239};
+				position[]={14506.103,7.8048019,5841.5171};
+				angles[]={0.045303639,0,6.1128521};
 			};
 			id=531;
 			type="ace_nightvision_ModuleSettings";
@@ -8820,7 +8831,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -8852,7 +8863,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14497.031,9.7185898,5840.5381};
-				angles[]={5.8686786,0,6.0489016};
+				angles[]={5.8686695,0,6.0489097};
 			};
 			id=535;
 			type="ACE_ModuleTagging";
@@ -9654,7 +9665,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14505.718,7.8648543,5841.229};
+				position[]={14507.647,7.5706062,5843.5386};
+				angles[]={6.2099833,0,6.1128521};
 			};
 			id=539;
 			type="ace_zeus_moduleSettings";
@@ -9713,7 +9725,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};
@@ -9751,7 +9763,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -9870,7 +9882,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};
@@ -10483,7 +10495,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=1;
+							value=0.89999998;
 						};
 					};
 				};
@@ -10649,7 +10661,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0;
+							value=2;
 						};
 					};
 				};
@@ -10786,11 +10798,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14535.624,9.187993,5853.978};
+				position[]={14535.624,9.1878939,5853.978};
 			};
 			id=567;
 			type="tfar_ModuleTaskForceRadioEnforceUsage";
-			atlOffset=6.9480991;
+			atlOffset=6.948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11154,11 +11166,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14531.992,4.4374156,5846.6611};
+				position[]={14531.992,4.4377551,5846.6611};
 			};
 			id=570;
 			type="ACEX_ModuleSitting";
-			atlOffset=1.4996605;
+			atlOffset=1.5;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11188,11 +11200,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14520.501,5.4869046,5848.23};
-				angles[]={6.1716504,0,6.1545663};
+				position[]={14521.202,8.9324265,5848.3618};
 			};
 			id=597;
 			type="ACE_moduleAssignEngineerRoles";
+			atlOffset=3.5214572;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11241,11 +11253,10 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14481.99,1.0190773,5827.6646};
+				position[]={14481.99,1.0194544,5827.665};
 			};
 			id=598;
 			type="ModuleSlingload_F";
-			atlOffset=-0.00016582012;
 		};
 		class Item486
 		{
@@ -11466,6 +11477,96 @@ class Mission
 					};
 				};
 				nAttributes=5;
+			};
+		};
+		class Item488
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14514.675,6.0867925,5841.2988};
+			};
+			id=606;
+			type="ace_spectator_moduleSettings";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_spectator_moduleSettings_sidesFilter";
+					expression="_this setVariable ['sidesFilter',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_spectator_moduleSettings_cameraModes";
+					expression="_this setVariable ['cameraModes',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_spectator_moduleSettings_unitsFilter";
+					expression="_this setVariable ['unitsFilter',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=2;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_spectator_moduleSettings_visionModes";
+					expression="_this setVariable ['visionModes',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=4;
 			};
 		};
 	};
