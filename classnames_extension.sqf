@@ -387,7 +387,7 @@ buildings_extension = [
 	["Land_Obstacle_Bridge_F",0,0,0],
 	["Land_Shoot_House_Wall_Long_Prone_F",0,0,0],
 	["BlockConcrete_F",0,0,0],
-	["Land_Obstacle_Ramp_F,0,0,0]
+	["Land_Obstacle_Ramp_F",0,0,0]
 
 ];
 
