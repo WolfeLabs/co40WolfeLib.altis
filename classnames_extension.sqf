@@ -103,7 +103,13 @@ light_vehicles_extension = [
 	
 	["rhsusf_M1237_M2_usarmy_d",0,10,10],
 	["rhsusf_M1237_MK19_usarmy_d",0,10,10],
-	["rhsusf_mrzr4_d",0,5,5]
+	["rhsusf_mrzr4_d",0,5,5],
+	["rhsgref_cdf_reg_uaz_dshkm",0,5,5],
+	["rhsgref_cdf_reg_uaz_ags",0,5,5],
+	["rhsgref_cdf_reg_uaz_spg9",0,5,5],
+	["rhsgref_BRDM2_HQ_msv",0,10,10],
+	["rhsgref_BRDM2_ATGM_msv",0,10,10],
+	["rhsgref_BRDM2_msv",0,10,10]
 
 ];
 
@@ -148,7 +154,6 @@ heavy_vehicles_extension = [
 	["rhs_zsu234_aa",0,55,25],
 	["rhs_9k79",0,60,25],
 	["rhs_9k79_K",0,60,25],
-	["rhs_9k79_B",0,60,25],
 	["rhs_btr80a_msv",0,60,25],
 	["rhs_btr70_msv",0,60,25],
 	["RHS_Ural_Zu23_MSV_01",0,30,25],
@@ -164,7 +169,10 @@ heavy_vehicles_extension = [
 	["BWA3_Puma_Fleck",0,48,15],
 	["BWA3_Puma_Tropen",0,48,15],
 	["BWA3_Leopard2A6M_Fleck",0,48,15],
-	["BWA3_Leopard2A6M_Tropen",0,48,15]
+	["BWA3_Leopard2A6M_Tropen",0,48,15],
+	
+	["rhs_sprut_vdv",0,47,14],
+	["rhs_t90a_tv",0,47,14]
 
 ];
 
@@ -351,7 +359,9 @@ buildings_extension = [
 	["Land_BagFence_01_round_green_F",0,0,0],
 	["Land_BagFence_01_short_green_F",0,0,0],
 	["Land_BagFence_01_end_green_F",0,0,0],
-	["Land_LandMark_F",0,0,0]	
+	["Land_LandMark_F",0,0,0],
+	["rhs_Flag_Russia_F",0,0,0],
+	["IP_Flag_Germany_F",0,0,0]
 
 ];
 
@@ -424,75 +434,107 @@ blufor_squad_para = [
 // *** BADDIES ***
 
 // All OPFOR infantry. Defining a value here will replace the default value from the original mission.
-opfor_sentry = nil;
-opfor_rifleman = nil;
-opfor_grenadier = nil;
-opfor_squad_leader = nil;
-opfor_team_leader = nil;
-opfor_marksman = nil;
-opfor_machinegunner = nil;
-opfor_heavygunner = nil;
-opfor_medic = nil;
-opfor_rpg = nil;
-opfor_at = nil;
-opfor_aa = nil;
-opfor_officer = nil;
-opfor_sharpshooter = nil;
-opfor_sniper = nil;
-opfor_engineer = nil;
-opfor_paratrooper = nil;
+opfor_sentry = rhsgref_ins_spotter;
+opfor_rifleman = rhsgref_ins_rifleman_aks74;
+opfor_grenadier = rhsgref_ins_grenadier;
+opfor_squad_leader = rhsgref_ins_squadleader;
+opfor_team_leader = rhsgref_ins_squadleader;
+opfor_marksman = rhsgref_ins_sniper;
+opfor_machinegunner = rhsgref_ins_machinegunner;
+opfor_heavygunner = rhsgref_ins_machinegunner;
+opfor_medic = rhsgref_ins_medic;
+opfor_rpg = rhsgref_ins_grenadier_rpg;
+opfor_at = rhsgref_ins_grenadier_rpg;
+opfor_aa = rhsgref_ins_specialist_aa;
+opfor_officer = rhsgref_ins_squadleader;
+opfor_sharpshooter = rhsgref_ins_militiaman_mosin;
+opfor_sniper = rhsgref_ins_sniper;
+opfor_engineer = rhsgref_ins_engineer;
+opfor_paratrooper = rhsgref_ins_saboteur;
 
 // OPFOR Vehicles to be used in secondary objectives
-opfor_mrap = nil;
-opfor_mrap_armed = nil;
-opfor_transport_helo = nil;
-opfor_transport_truck = nil;
-opfor_fuel_truck = nil;
-opfor_ammo_truck = nil;
+opfor_mrap = rhsgref_BRDM2UM_ins;
+opfor_mrap_armed = rhsgref_BRDM2_ins;
+opfor_transport_helo = rhsgref_ins_Mi8amt;
+opfor_transport_truck = rhsgref_ins_ural;
+opfor_fuel_truck = RHS_Ural_Fuel_MSV_01;
+opfor_ammo_truck = rhsgref_ins_gaz66_ammo;
 opfor_fuel_container = nil;
 opfor_ammo_container = nil;
-opfor_flag = nil;
+opfor_flag = rhs_Flag_Che_F;
 
 // Militia infantry. Soldier classnames the game will pick from randomly
 militia_squad_overwrite = false;
 militia_squad_extension = [
+	"rhsgref_ins_g_specialist_aa",
+	"rhsgref_ins_g_grenadier_rpg",
+	"rhsgref_ins_g_commander",
+	"rhsgref_ins_g_machinegunner",
+	"rhsgref_ins_g_medic",
+	"rhsgref_ins_g_militiaman_mosin",
+	"rhsgref_ins_g_squadleader",
+	"rhsgref_ins_g_rifleman",
+	"rhsgref_ins_g_rifleman_aks74",
+	"rhsgref_ins_g_rifleman_aksu",
+	"rhsgref_ins_g_rifleman_akm",
+	"rhsgref_ins_g_grenadier",
+	"rhsgref_ins_g_rifleman_RPG26",
+	"rhsgref_ins_g_saboteur",
+	"rhsgref_ins_g_spotter",
+	"rhsgref_ins_g_sniper",
+	"rhsgref_ins_g_engineer"
 
 ];
 
 // Militia vehicles to choose from
 militia_vehicles_overwrite = false;
 militia_vehicles_extension = [
-	"rhs_btr70_chdkz",
-	"rhs_zsu234_chdkz",
-	"I_MU_mercs_Offroad_01_armed_F",
-	"I_MU_mercs_Offroad_01_armed_F",
-	"LOP_AFR_BTR60",
-	"LOP_AFR_M113_W",
-	"LOP_AFR_T72BA",
-	"I_MU_mercs_Offroad_01_armed_F"
+	"rhsgref_ins_g_uaz_dshkm_chdkz",
+	"rhsgref_ins_g_uaz_ags",
+	"rhsgref_ins_g_gaz66_zu23",
+	"rhsgref_ins_g_gaz66",
+	"rhsgref_BRDM2_HQ_ins_g",
+	"rhsgref_BRDM2_ins_g",
+	"rhsgref_ins_g_bmp2",
+	"rhsgref_ins_g_btr60",
+	"rhsgref_ins_g_uaz_open"
+
 ];
 
 // All the vehicles that can spawn as sector defenders and patrols
 opfor_vehicles_overwrite = false;
 opfor_vehicles_extension = [
+	"rhsgref_ins_ural_open",
+	"rhsgref_ins_uaz_dshkm",
+	"rhsgref_BRDM2_HQ_ins",
+	"rhsgref_ins_uaz_spg9"
 
 ];
 
 // Same with lighter choices to be used  when the alert level is low
 opfor_vehicles_low_intensity_overwrite = false;
 opfor_vehicles_low_intensity_extension = [
+	"rhsgref_ins_uaz_dshkm",
+	"rhsgref_ins_uaz_spg9",
+	"rhsgref_BRDM2_HQ_ins"
 
 ];
 
 // All the vehicles that can spawn as battlegroup members
 opfor_battlegroup_vehicles_overwrite = false;
 opfor_battlegroup_vehicles_extension = [
+	"rhsgref_BRDM2_ins",
+	"rhsgref_ins_btr70",
+	"rhsgref_ins_bmp2k",
+	"rhsgref_ins_t72ba"
 
 ];
 
 // Same with lighter choices to be used  when the alert level is low
 opfor_battlegroup_vehicles_low_intensity_overwrite = false;
 opfor_battlegroup_vehicles_low_intensity_extension = [
+	"rhsgref_BRDM2_HQ_ins",
+	"rhsgref_BRDM2_ins"
 
 ];
 
@@ -500,18 +542,22 @@ opfor_battlegroup_vehicles_low_intensity_extension = [
 // If something in here can't hold all 8 soldiers then buggy behaviours may occur
 opfor_troup_transports_overwrite = false;
 opfor_troup_transports_extension = [
+	"rhsgref_ins_ural",
+	"rhsgref_ins_ural_open"
 
 ];
 
 // Battlegroup members that will need to spawn in flight. Should be only helos but, who knows
 opfor_choppers_overwrite = false;
 opfor_choppers_extension = [
+	"rhsgref_ins_Mi8amt"
 
 ];
 
 // Opfor military aircrafts
 opfor_air_overwrite = false;
 opfor_air_extension = [
+	"RHS_Su25SM_vvsc"
 
 ];
 
