@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14591.848,92.81002,5796.5576};
-		dir[]={-0.64344829,-0.72606552,0.24253802};
-		up[]={-0.67941201,0.68761176,0.25609285};
-		aside[]={0.35271284,-8.4401108e-008,0.93574113};
+		pos[]={14358.738,28.170504,15829.692};
+		dir[]={-0.67946517,-0.23793279,-0.69416821};
+		up[]={-0.16653426,0.97123647,-0.17013659};
+		aside[]={-0.71468562,-5.9604645e-007,0.69955498};
 	};
 };
 binarizationWanted=0;
@@ -11712,7 +11712,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 0;this setposATL [3922.0419922,4240.114746,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=738;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11730,7 +11730,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3920.043457,4242.11377,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=739;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11748,7 +11748,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3920.043457,4246.111328,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=740;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11766,7 +11766,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3920.043457,4250.108887,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=741;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11784,7 +11784,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 0;this setposATL [3930.0371094,4240.114746,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=742;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11802,7 +11802,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 0;this setposATL [3934.034668,4240.114746,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=743;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11820,7 +11820,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 0;this setposATL [3942.0297852,4240.114746,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=744;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11838,7 +11838,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3922.0427246,4252.107422,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=745;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11856,7 +11856,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3926.0402832,4252.107422,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=746;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11875,7 +11875,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3930.0378418,4252.107422,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=747;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11894,7 +11894,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3934.0354004,4252.107422,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=748;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11912,7 +11912,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3938.032959,4252.107422,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=749;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11931,7 +11931,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3943.106689,4252.107422,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=750;
 			type="Land_Shoot_House_Panels_F";
@@ -11949,7 +11949,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3944.0290527,4250.108398,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=751;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11967,7 +11967,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 45;this setposATL [3926.625,4241.52832,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=752;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -11985,7 +11985,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 0;this setposATL [3924.249512,4242.941406,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=753;
 			type="Land_Shoot_House_Panels_F";
@@ -12003,7 +12003,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3923.176758,4243.867676,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=754;
 			type="Land_Shoot_House_Panels_Windows_F";
@@ -12021,7 +12021,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3923.176758,4245.85498,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=755;
 			type="Land_Shoot_House_Panels_Window_F";
@@ -12040,7 +12040,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3924.102295,4246.916504,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=756;
 			type="Land_Shoot_House_Panels_F";
@@ -12059,7 +12059,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3925.161865,4244.998047,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=757;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12077,7 +12077,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3922.0427246,4250.0854492,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=758;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -12095,7 +12095,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3926.0402832,4250.0854492,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=759;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12113,7 +12113,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3928.0388184,4248.0864258,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=760;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12131,7 +12131,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 225;this setposATL [3929.452393,4244.674316,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=761;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12149,7 +12149,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3936.0336914,4242.11377,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=762;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12167,7 +12167,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 45;this setposATL [3934.620117,4245.525879,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=763;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12186,7 +12186,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3935.206299,4246.938965,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=764;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12205,7 +12205,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 285;this setposATL [3936.687256,4245.00830078,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=765;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12223,7 +12223,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3930.0378418,4250.0854492,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=766;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -12241,7 +12241,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3934.0354004,4250.0854492,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=767;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12259,7 +12259,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3937.245361,4250.0869141,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=768;
 			type="Land_Shoot_House_Panels_F";
@@ -12277,7 +12277,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3942.182861,4251.0551758,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=769;
 			type="Land_Shoot_House_Panels_Windows_F";
@@ -12295,10 +12295,33 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3930.877686,4241.702148,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=770;
 			type="Land_Obstacle_Cross_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item523
 		{
@@ -12313,7 +12336,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3944.0290527,4242.113281,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=771;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12369,7 +12392,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3923.917725,4238.478516,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=774;
 			type="TapeSign_F";
@@ -12388,7 +12411,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3928.129395,4238.432129,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=775;
 			type="TapeSign_F";
@@ -12406,7 +12429,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3923.106689,4242.895508,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=776;
 			type="Pole_F";
@@ -12425,7 +12448,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3920.0471191,4242.895508,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=777;
 			type="Pole_F";
@@ -12444,7 +12467,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3924.0783691,4249.972656,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=778;
 			type="Pole_F";
@@ -12463,7 +12486,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3924.0783691,4247.0268555,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=779;
 			type="Pole_F";
@@ -12482,7 +12505,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3933.125732,4246.899414,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=780;
 			type="Pole_F";
@@ -12501,7 +12524,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3933.125732,4250.0913086,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=782;
 			type="Pole_F";
@@ -12520,7 +12543,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3937.281738,4249.0654297,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=783;
 			type="Pole_F";
@@ -12539,7 +12562,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3937.3125,4247.0375977,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=784;
 			type="Pole_F";
@@ -12558,7 +12581,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3931.970947,4252.221191,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=785;
 			type="Pole_F";
@@ -12570,17 +12593,40 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14322.648,18.854189,15810.357};
-				angles[]={0,3.9331901,6.2818937};
+				angles[]={0,3.9331865,6.2818937};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 2.00358e-005;this setposATL [3930.0231934,4240.0170898,0];this setVectorUp [0,0,1];this setObjectTexture [0, ""shtimed.jpg""] ;";
+				init="this enableSimulation false;this allowDamage false;this setObjectTexture [0, ""shtimed.jpg""] ;";
 			};
 			id=786;
 			type="SignAd_Sponsor_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item538
 		{
@@ -12595,7 +12641,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3936.272217,4250.0854492,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=787;
 			type="Land_Shoot_House_Panels_F";
@@ -12613,7 +12659,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3937.245361,4252.0742188,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=788;
 			type="Land_Shoot_House_Panels_F";
@@ -12632,7 +12678,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3939.203857,4246.938965,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=789;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12650,7 +12696,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3942.182861,4249.0639648,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=790;
 			type="Land_Shoot_House_Panels_Windows_F";
@@ -12668,7 +12714,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 135;this setposATL [3941.54248,4247.356934,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=791;
 			type="Land_Shoot_House_Wall_F";
@@ -12686,7 +12732,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3943.107666,4248.0556641,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=792;
 			type="Land_Shoot_House_Wall_F";
@@ -12704,7 +12750,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3944.956055,4244.0273438,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=793;
 			type="Land_Shoot_House_Panels_F";
@@ -12722,7 +12768,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3946.041748,4246.0668945,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=794;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12740,7 +12786,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3946.041748,4250.0644531,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=795;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12758,7 +12804,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3946.041748,4254.0620117,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=796;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12776,7 +12822,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3946.041748,4258.0595703,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=797;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12794,7 +12840,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3946.041748,4262.0571289,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=798;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12812,7 +12858,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3946.041748,4266.0546875,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=799;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12830,7 +12876,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3946.041748,4270.0522461,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=800;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12848,7 +12894,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3920.043457,4254.106445,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=801;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12866,7 +12912,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3920.043457,4258.104004,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=802;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12885,7 +12931,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3920.043457,4262.101563,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=803;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12903,7 +12949,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3920.043457,4266.0991211,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=804;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12921,7 +12967,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3920.043457,4270.0966797,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=805;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12940,7 +12986,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3922.0427246,4272.0952148,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=806;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12958,7 +13004,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3926.0402832,4272.0952148,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=807;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12977,7 +13023,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3930.0378418,4272.0952148,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=808;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -12995,7 +13041,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3934.0354004,4272.0952148,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=809;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13013,7 +13059,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3938.032959,4272.0952148,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=810;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13031,7 +13077,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3942.0305176,4272.0952148,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=811;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13049,7 +13095,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3945.0302734,4272.0952148,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=812;
 			type="Land_Shoot_House_Panels_F";
@@ -13067,7 +13113,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3944.0290527,4254.105957,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=813;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13085,7 +13131,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3942.000976563,4256.15625,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=814;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13103,7 +13149,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 1.00179e-005;this setposATL [3938.00341797,4256.15625,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=815;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13121,7 +13167,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3925.917725,4253.987305,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=816;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -13140,7 +13186,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3925.917725,4257.980469,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=817;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -13159,7 +13205,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3925.917725,4261.973633,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=818;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -13177,7 +13223,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3925.917725,4265.966797,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=819;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -13195,7 +13241,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3925.917725,4269.959961,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=820;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -13213,11 +13259,34 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 810;this setposATL [3939.0117188,4254.55127,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=821;
 			type="Land_Obstacle_Pass_F";
 			atlOffset=-1.9073486e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item573
 		{
@@ -13232,7 +13301,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3934.00585938,4256.15625,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=822;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13250,7 +13319,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3930.00830078,4256.15625,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=823;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13268,7 +13337,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3922.0427246,4260.102539,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=824;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13286,7 +13355,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3926.0402832,4260.102539,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=825;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13304,7 +13373,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3930.0378418,4260.102539,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=826;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13322,7 +13391,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3934.0354004,4260.102539,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=827;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13340,7 +13409,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3933.935303,4261.0512695,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=828;
 			type="Land_Shoot_House_Panels_F";
@@ -13358,7 +13427,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3933.961914,4265.0473633,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=829;
 			type="Land_Shoot_House_Panels_F";
@@ -13377,7 +13446,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3931.976807,4263.0102539,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=830;
 			type="Land_Shoot_House_Panels_F";
@@ -13395,7 +13464,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3929.984131,4266.125488,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=831;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13413,7 +13482,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3933.981689,4266.125488,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=832;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13431,7 +13500,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3937.979248,4266.125488,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=833;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13449,7 +13518,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3941.976807,4266.125488,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=834;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13467,7 +13536,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3944.00756836,4264.043457,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=835;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13485,7 +13554,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3944.00756836,4260.0458984,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=836;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -13503,7 +13572,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3943.999512,4257.0966797,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=837;
 			type="Land_Shoot_House_Panels_F";
@@ -13521,7 +13590,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3930.0698242,4268.129395,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=838;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -13539,7 +13608,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3936.0375977,4271.0322266,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=839;
 			type="Land_Shoot_House_Wall_Stand_F";
@@ -13557,7 +13626,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3940.123535,4267.0078125,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=840;
 			type="Land_Shoot_House_Wall_Stand_F";
@@ -13575,7 +13644,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3940.123535,4269.00341797,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=841;
 			type="Land_Shoot_House_Wall_Stand_F";
@@ -13593,7 +13662,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3936.0905762,4267.0244141,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=842;
 			type="Land_Shoot_House_Wall_Prone_F";
@@ -13611,7 +13680,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3931.970947,4256.043457,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=843;
 			type="Pole_F";
@@ -13630,7 +13699,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3928.0415039,4256.256836,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=844;
 			type="Pole_F";
@@ -13648,7 +13717,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3934.000488281,4262.0703125,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=845;
 			type="Pole_F";
@@ -13667,7 +13736,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3934.000488281,4264.0268555,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=846;
 			type="Pole_F";
@@ -13685,7 +13754,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3932.0925293,4264.0268555,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=847;
 			type="Pole_F";
@@ -13704,7 +13773,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3932.0961914,4262.0703125,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=848;
 			type="Pole_F";
@@ -13722,7 +13791,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3930.0227051,4270.14209,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=849;
 			type="Pole_F";
@@ -13741,7 +13810,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3930.0227051,4272.00292969,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=850;
 			type="Pole_F";
@@ -13760,7 +13829,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3940.0585938,4270.0136719,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=851;
 			type="Pole_F";
@@ -13779,7 +13848,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3940.0585938,4272.0136719,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=852;
 			type="Pole_F";
@@ -13798,7 +13867,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3940.0734863,4264.00634766,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=853;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -13817,7 +13886,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3940.0734863,4260.0131836,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=854;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -13835,7 +13904,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3940.0734863,4257.158203,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=855;
 			type="Land_Shoot_House_Panels_F";
@@ -13853,7 +13922,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3935.979004,4260.03125,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=856;
 			type="Pole_F";
@@ -13872,7 +13941,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3935.979004,4256.236328,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=857;
 			type="Pole_F";
@@ -13890,7 +13959,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3928.0415039,4260.00732422,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=858;
 			type="Pole_F";
@@ -13902,17 +13971,40 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14312.086,19.499075,15812.731};
-				angles[]={0.0013372133,5.5039864,6.2818484};
+				angles[]={0.0013439035,5.503983,6.2818413};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3939.131348,4245.870605,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=859;
 			type="Land_Shoot_House_Wall_Prone_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item611
 		{
@@ -13927,7 +14019,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 135;this setposATL [3938.458496,4244.262695,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=860;
 			type="Land_Shoot_House_Wall_Prone_F";
@@ -13945,7 +14037,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 135;this setposATL [3937.0473633,4242.851563,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=861;
 			type="Land_Shoot_House_Wall_Prone_F";
@@ -14101,25 +14193,48 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14322.964,18.219217,15810.656};
-				angles[]={0,3.9298394,6.2818937};
+				position[]={14322.964,18.219215,15810.656};
+				angles[]={0,3.9298356,6.2818937};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=870;
 			type="Land_CampingTable_F";
-			atlOffset=1.9073486e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item622
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14323.315,18.780655,15810.318};
-				angles[]={0,0.58556175,6.2818937};
+				position[]={14323.315,18.780317,15810.318};
+				angles[]={0,0.58555794,6.2818937};
 			};
 			side="Empty";
 			class Attributes
@@ -14129,7 +14244,30 @@ class Mission
 			};
 			id=871;
 			type="Land_Laptop_unfolded_F";
-			atlOffset=0.81233788;
+			atlOffset=0.81200027;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item623
 		{
@@ -14320,7 +14458,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={14326.88,17.824673,15808.927};
-			angle=3.9331894;
+			angle=3.9331889;
 			class Attributes
 			{
 				sizeA=2;
@@ -14392,7 +14530,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3928.142578,4246.899414,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=781;
 			type="Pole_F";
@@ -14427,14 +14565,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14343.072,19.583914,15803.094};
-				angles[]={0.0026520467,2.3790786,0};
+				angles[]={0.0026529003,2.3790758,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3872.133789,4209.908203,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1147;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14468,17 +14606,40 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14348.672,19.585501,15800.139};
-				angles[]={0,3.9498751,0};
+				angles[]={0,3.949872,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3866.136963,4207.909668,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1148;
 			type="Land_Shoot_House_Wall_Long_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item640
 		{
@@ -14493,7 +14654,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3856.143311,4225.898926,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1149;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14511,7 +14672,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3856.143311,4229.896484,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1150;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14529,7 +14690,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3856.143311,4233.894043,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1151;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14547,7 +14708,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3856.143311,4237.891602,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1152;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14565,7 +14726,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3856.143311,4240.883789,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1153;
 			type="Land_Shoot_House_Panels_Vault_F";
@@ -14583,7 +14744,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3856.143311,4245.886719,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1154;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14601,7 +14762,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3856.143311,4249.884277,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1155;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14619,7 +14780,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 540;this setposATL [3858.142578,4251.882813,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1156;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14637,7 +14798,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 540;this setposATL [3862.140137,4251.882813,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1157;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14655,7 +14816,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 540;this setposATL [3866.137695,4251.882813,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1158;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14673,7 +14834,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 540;this setposATL [3870.135254,4251.882813,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1159;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14691,7 +14852,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 540;this setposATL [3874.132813,4251.882813,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1160;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14709,7 +14870,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 540;this setposATL [3878.130371,4251.882813,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1161;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14728,7 +14889,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3880.128906,4249.883789,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1162;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14747,7 +14908,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3880.128906,4245.88623,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1163;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14766,7 +14927,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3880.128906,4241.888672,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1164;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14785,7 +14946,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 2.00358e-005;this setposATL [3874.13208,4239.890137,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1165;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14804,7 +14965,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3872.133545,4237.891113,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1166;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14823,7 +14984,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3872.133545,4233.893555,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1167;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14841,7 +15002,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3872.133545,4229.895996,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1168;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14859,7 +15020,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3872.133545,4225.898438,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1169;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14878,7 +15039,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3872.133545,4221.900879,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1170;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14896,7 +15057,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3872.133545,4217.90332,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1171;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14914,7 +15075,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3872.133545,4213.905762,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1172;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14932,7 +15093,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 810;this setposATL [3876.131104,4241.88916,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1173;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14951,7 +15112,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 810;this setposATL [3876.131104,4245.886719,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1174;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -14961,19 +15122,41 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14320.05,18.94651,15783.908};
-				angles[]={0.0012918708,3.9498751,0};
+				position[]={14320.05,18.945841,15783.908};
+				angles[]={0.0012915437,3.949872,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 2.00358e-005;this setposATL [3874.172607,4239.803711,0];this setVectorUp [0,0,1];this setObjectTexture [0, ""shtimed.jpg""] ;";
+				init="this enableSimulation false;this allowDamage false;this setObjectTexture [0, ""shtimed.jpg""] ;";
 			};
 			id=1175;
 			type="SignAd_Sponsor_F";
-			atlOffset=0.00066947937;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item667
 		{
@@ -14988,7 +15171,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 720;this setposATL [3870.134521,4239.890137,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1176;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15007,7 +15190,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 2.00358e-005;this setposATL [3866.136963,4239.890137,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1177;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15026,7 +15209,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 2.00358e-005;this setposATL [3862.139404,4239.890137,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1178;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15044,7 +15227,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3864.138428,4240.968262,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1179;
 			type="Land_Shoot_House_Panels_F";
@@ -15062,7 +15245,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 810;this setposATL [3864.138428,4245.886719,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1180;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15080,7 +15263,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 810;this setposATL [3864.138428,4249.884277,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1181;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15098,7 +15281,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 810;this setposATL [3868.0117188,4241.998535,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1182;
 			type="Land_Shoot_House_Wall_Long_Stand_F";
@@ -15117,7 +15300,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3866.0827637,4246.0791016,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1183;
 			type="Land_Shoot_House_Wall_Long_Stand_F";
@@ -15135,7 +15318,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 810;this setposATL [3860.140869,4241.88916,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1184;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15153,7 +15336,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 810;this setposATL [3860.140869,4245.886719,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1185;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15171,7 +15354,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 720;this setposATL [3863.0532227,4246.0986328,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1186;
 			type="Land_Shoot_House_Panels_F";
@@ -15189,11 +15372,34 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3858.00146484,4242.79248,0.0504932];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1187;
 			type="Land_Obstacle_Bridge_F";
 			atlOffset=0.049158096;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item679
 		{
@@ -15208,7 +15414,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3858.0825195,4245.612793,-0.0698653];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1188;
 			type="Land_Shoot_House_Wall_Long_Crouch_F";
@@ -15227,7 +15433,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 450;this setposATL [3856.143311,4242.879883,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1189;
 			type="Land_Shoot_House_Panels_Vault_F";
@@ -15245,7 +15451,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 810;this setposATL [3852.145752,4241.88916,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1191;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15263,7 +15469,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 900;this setposATL [3854.14502,4243.887695,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1192;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15281,7 +15487,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 1080;this setposATL [3858.156982,4239.892578,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1193;
 			type="Land_Shoot_House_Wall_Long_Prone_F";
@@ -15299,7 +15505,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 540;this setposATL [3858.142578,4235.892578,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1194;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15317,7 +15523,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3862.140625,4235.892578,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1195;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15335,7 +15541,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3869.845703,4237.0297852,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1196;
 			type="Land_Shoot_House_Wall_F";
@@ -15353,7 +15559,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3867.875,4235.0180664,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1197;
 			type="Land_Shoot_House_Wall_F";
@@ -15371,7 +15577,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 2.00358e-005;this setposATL [3871.0654297,4223.899902,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1198;
 			type="Land_Shoot_House_Panels_F";
@@ -15389,7 +15595,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 2.00358e-005;this setposATL [3866.136719,4223.899902,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1199;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15407,7 +15613,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 720;this setposATL [3862.13916,4223.899902,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1200;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15425,7 +15631,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 720;this setposATL [3858.141602,4223.899902,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1201;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15437,93 +15643,208 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14333.846,19.384075,15790.1};
-				angles[]={0,3.9498756,0};
+				angles[]={0,3.949872,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 2.00358e-005;this setposATL [3869.135986,4225.5625,-0.0101011];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1202;
 			type="Land_Obstacle_Pass_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item693
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14338.02,17.663532,15794.813};
-				angles[]={0,2.3790786,0};
+				position[]={14338.02,17.663342,15794.813};
+				angles[]={0,2.3790758,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3869.645996,4219.282227,-0.895851];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1203;
 			type="BlockConcrete_F";
-			atlOffset=-0.99780846;
+			atlOffset=-0.99799919;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item694
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14341.522,18.020851,15800.516};
-				angles[]={0,0.80828238,0};
+				position[]={14341.522,18.020906,15800.516};
+				angles[]={0,0.80827945,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3871.377441,4212.851074,-0.0664476];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1204;
 			type="Land_Obstacle_Ramp_F";
-			atlOffset=-0.33805466;
+			atlOffset=-0.33799934;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item695
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14342.56,18.020851,15799.429};
-				angles[]={0,0.80828238,0};
+				position[]={14342.56,18.020906,15799.429};
+				angles[]={0,0.80827945,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3869.874512,4212.851074,-0.0858079];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1205;
 			type="Land_Obstacle_Ramp_F";
-			atlOffset=-0.33805466;
+			atlOffset=-0.33799934;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item696
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14343.596,18.020851,15798.346};
-				angles[]={0,0.80828238,0};
+				position[]={14343.596,18.020906,15798.346};
+				angles[]={0,0.80827945,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3868.376709,4212.851074,-0.106852];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1206;
 			type="Land_Obstacle_Ramp_F";
-			atlOffset=-0.33805466;
+			atlOffset=-0.33799934;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item697
 		{
@@ -15538,7 +15859,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3867.0441895,4222.828613,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1207;
 			type="Land_Shoot_House_Panels_Windows_F";
@@ -15556,7 +15877,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3867.0441895,4220.837402,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1208;
 			type="Land_Shoot_House_Panels_Windows_F";
@@ -15574,7 +15895,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3867.0441895,4218.846191,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1209;
 			type="Land_Shoot_House_Panels_Windows_F";
@@ -15592,7 +15913,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3867.0441895,4216.85498,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1210;
 			type="Land_Shoot_House_Panels_Windows_F";
@@ -15610,7 +15931,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3867.0441895,4214.86377,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1211;
 			type="Land_Shoot_House_Panels_F";
@@ -15628,7 +15949,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3866.709961,4214.826172,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1212;
 			type="Land_Shoot_House_Panels_F";
@@ -15646,7 +15967,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3864.138184,4221.900879,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1213;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15665,7 +15986,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3864.138184,4217.90332,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1214;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -15676,17 +15997,40 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14345.704,19.585501,15794.55};
-				angles[]={0,2.3790786,0};
+				angles[]={0,2.3790758,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3864.138184,4213.905762,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1215;
 			type="Land_Shoot_House_Wall_Long_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item706
 		{
@@ -15694,17 +16038,40 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14344.634,19.585501,15794.322};
-				angles[]={0,0.80828238,0};
+				angles[]={0,0.80827945,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 180;this setposATL [3864.722412,4214.826172,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1216;
 			type="Land_Shoot_House_Panels_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item707
 		{
@@ -15712,17 +16079,40 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14348.596,19.585501,15797.311};
-				angles[]={0,2.3790781,0};
+				angles[]={0,2.3790758,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 630;this setposATL [3864.138184,4209.908203,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1217;
 			type="Land_Shoot_House_Wall_Long_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item708
 		{
@@ -15737,7 +16127,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3876.0927734,4238.268555,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1218;
 			type="TapeSign_F";
@@ -15756,7 +16146,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3880.150879,4238.355469,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1219;
 			type="TapeSign_F";
@@ -15793,7 +16183,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3876.130127,4247.905762,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1221;
 			type="Pole_F";
@@ -15812,7 +16202,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3876.130127,4251.775879,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1222;
 			type="Pole_F";
@@ -15831,7 +16221,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3868.0200195,4244.0161133,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1223;
 			type="Pole_F";
@@ -15850,7 +16240,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3868.0200195,4245.989258,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1224;
 			type="Pole_F";
@@ -15869,7 +16259,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3862.0390625,4246.0644531,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1225;
 			type="Pole_F";
@@ -15888,7 +16278,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3860.236084,4246.0644531,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1226;
 			type="Pole_F";
@@ -15907,7 +16297,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3858.548584,4247.460449,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1227;
 			type="Pole_F";
@@ -15926,7 +16316,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3857.505859,4247.460449,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1228;
 			type="Pole_F";
@@ -15945,7 +16335,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3857.50293,4238.0385742,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1229;
 			type="Pole_F";
@@ -15964,7 +16354,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3860.0905762,4236.00390625,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1231;
 			type="Pole_F";
@@ -15983,7 +16373,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3860.0905762,4239.789063,-0.948296];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1232;
 			type="Pole_F";
@@ -16001,7 +16391,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3869.773682,4223.777832,0.0782831];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1233;
 			type="Pole_F";
@@ -16019,7 +16409,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3868.504395,4223.777832,0.0782831];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1234;
 			type="Pole_F";
@@ -16038,7 +16428,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3870.134277,4231.89502,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1235;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -16056,7 +16446,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3866.136719,4231.89502,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1236;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -16075,7 +16465,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 360;this setposATL [3862.13916,4231.89502,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1237;
 			type="Land_Shoot_House_Wall_Long_F";
@@ -16094,7 +16484,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3866.0754395,4227.0356445,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1238;
 			type="Land_Shoot_House_Wall_F";
@@ -16113,7 +16503,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3864.0627441,4229.000976563,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1239;
 			type="Land_Shoot_House_Wall_F";
@@ -16132,7 +16522,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3861.894043,4226.979492,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1240;
 			type="Land_Shoot_House_Wall_F";
@@ -16150,7 +16540,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [3870.0522461,4228.984863,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1241;
 			type="Land_Shoot_House_Wall_F";
@@ -16160,8 +16550,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14321.528,18.768732,15779.623};
-				angles[]={0,1.5977588,0};
+				position[]={14321.528,18.768072,15779.623};
+				angles[]={0,1.5977616,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16172,7 +16562,29 @@ class Mission
 			};
 			id=1250;
 			type="TargetP_Inf_F";
-			atlOffset=0.00065994263;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item732
 		{
@@ -16565,7 +16977,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={14318.611,17.89867,15788.027};
-			angle=-2.3333097;
+			angle=-2.3333094;
 			class Attributes
 			{
 				sizeA=2;
@@ -16580,7 +16992,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={14345.902,17.908648,15803.006};
-			angle=-3.9032335;
+			angle=-3.9032333;
 			class Attributes
 			{
 				sizeA=0.1;
@@ -16595,7 +17007,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={14319.644,17.894783,15789.014};
-			angle=-3.9032335;
+			angle=-3.9032333;
 			class Attributes
 			{
 				sizeA=0.1;
@@ -16654,7 +17066,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [3856.143311,4237.891602,0];this setVectorUp [0,0,1]";
+				init="this enableSimulation false;this allowDamage false;";
 			};
 			id=1277;
 			type="Land_Shoot_House_Wall_Long_F";
