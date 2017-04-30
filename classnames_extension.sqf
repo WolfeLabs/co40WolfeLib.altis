@@ -464,7 +464,7 @@ opfor_ammo_container = nil;
 opfor_flag = rhs_Flag_Che_F;
 
 // Militia infantry. Soldier classnames the game will pick from randomly
-militia_squad_overwrite = false;
+militia_squad_overwrite = true;
 militia_squad_extension = [
 	"rhsgref_ins_g_specialist_aa",
 	"rhsgref_ins_g_grenadier_rpg",
@@ -487,7 +487,7 @@ militia_squad_extension = [
 ];
 
 // Militia vehicles to choose from
-militia_vehicles_overwrite = false;
+militia_vehicles_overwrite = true;
 militia_vehicles_extension = [
 	"rhsgref_ins_g_uaz_dshkm_chdkz",
 	"rhsgref_ins_g_uaz_ags",
@@ -502,7 +502,7 @@ militia_vehicles_extension = [
 ];
 
 // All the vehicles that can spawn as sector defenders and patrols
-opfor_vehicles_overwrite = false;
+opfor_vehicles_overwrite = true;
 opfor_vehicles_extension = [
 	"rhsgref_ins_ural_open",
 	"rhsgref_ins_uaz_dshkm",
@@ -512,7 +512,7 @@ opfor_vehicles_extension = [
 ];
 
 // Same with lighter choices to be used  when the alert level is low
-opfor_vehicles_low_intensity_overwrite = false;
+opfor_vehicles_low_intensity_overwrite = true;
 opfor_vehicles_low_intensity_extension = [
 	"rhsgref_ins_uaz_dshkm",
 	"rhsgref_ins_uaz_spg9",
@@ -521,7 +521,7 @@ opfor_vehicles_low_intensity_extension = [
 ];
 
 // All the vehicles that can spawn as battlegroup members
-opfor_battlegroup_vehicles_overwrite = false;
+opfor_battlegroup_vehicles_overwrite = true;
 opfor_battlegroup_vehicles_extension = [
 	"rhsgref_BRDM2_ins",
 	"rhsgref_ins_btr70",
@@ -531,7 +531,7 @@ opfor_battlegroup_vehicles_extension = [
 ];
 
 // Same with lighter choices to be used  when the alert level is low
-opfor_battlegroup_vehicles_low_intensity_overwrite = false;
+opfor_battlegroup_vehicles_low_intensity_overwrite = true;
 opfor_battlegroup_vehicles_low_intensity_extension = [
 	"rhsgref_BRDM2_HQ_ins",
 	"rhsgref_BRDM2_ins"
@@ -540,7 +540,7 @@ opfor_battlegroup_vehicles_low_intensity_extension = [
 
 // All the vehicles that can spawn as battlegroup members (see above) and also hold 8 soldiers as passengers.
 // If something in here can't hold all 8 soldiers then buggy behaviours may occur
-opfor_troup_transports_overwrite = false;
+opfor_troup_transports_overwrite = true;
 opfor_troup_transports_extension = [
 	"rhsgref_ins_ural",
 	"rhsgref_ins_ural_open"
@@ -548,14 +548,14 @@ opfor_troup_transports_extension = [
 ];
 
 // Battlegroup members that will need to spawn in flight. Should be only helos but, who knows
-opfor_choppers_overwrite = false;
+opfor_choppers_overwrite = true;
 opfor_choppers_extension = [
 	"rhsgref_ins_Mi8amt"
 
 ];
 
 // Opfor military aircrafts
-opfor_air_overwrite = false;
+opfor_air_overwrite = true;
 opfor_air_extension = [
 	"RHS_Su25SM_vvsc"
 
@@ -604,7 +604,7 @@ vehicle_refuel_sources_extension = [
 
 // Elite vehicles that should be unlocked through military base capture.
 elite_vehicles_extension = [
-	"Steve_MBT_Kuma",
+	"Steve_MBT_Kuma", // Steven's Kuma MBT
 	"Burnes_FV4034_01",
 	"RHS_AH1Z_wd_GS",
 	"H_RAH66",
