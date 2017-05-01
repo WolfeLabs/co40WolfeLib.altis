@@ -361,7 +361,33 @@ buildings_extension = [
 	["Land_BagFence_01_end_green_F",0,0,0],
 	["Land_LandMark_F",0,0,0],
 	["rhs_Flag_Russia_F",0,0,0],
-	["IP_Flag_Germany_F",0,0,0]
+	["IP_Flag_Germany_F",0,0,0],
+	
+	["Land_Shoot_House_Wall_Long_F",0,0,0],
+	["Land_Shoot_House_Panels_F",0,0,0],
+	["Land_Shoot_House_Panels_Windows_F",0,0,0],
+	["Land_Shoot_House_Panels_Window_F",0,0,0],
+	["Land_Shoot_House_Wall_Long_Crouch_F",0,0,0],
+	["Land_Obstacle_Cross_F",0,0,0],
+	["VR_Area_01_square_4x4_yellow_F",0,0,0],
+	["TapeSign_F",0,0,0],
+	["Pole_F",0,0,0],
+	["SignAd_Sponsor_F",0,0,0],
+	["Land_Shoot_House_Wall_F",0,0,0],
+	["Land_Obstacle_Pass_F",0,0,0],
+	["Land_Shoot_House_Wall_Stand_F",0,0,0],
+	["Land_Shoot_House_Wall_Prone_F",0,0,0],
+	["TargetP_Inf_F",0,0,0],
+	["Land_CampingTable_F",0,0,0],
+	["TargetP_Inf2_F",0,0,0],
+	["TargetP_Inf2_Acc1_F",0,0,0],
+	["TargetP_Inf_Acc1_F",0,0,0],
+	["Land_Shoot_House_Panels_Vault_F",0,0,0],
+	["Land_Shoot_House_Wall_Long_Stand_F",0,0,0],
+	["Land_Obstacle_Bridge_F",0,0,0],
+	["Land_Shoot_House_Wall_Long_Prone_F",0,0,0],
+	["BlockConcrete_F",0,0,0],
+	["Land_Obstacle_Ramp_F",0,0,0]
 
 ];
 
@@ -434,37 +460,37 @@ blufor_squad_para = [
 // *** BADDIES ***
 
 // All OPFOR infantry. Defining a value here will replace the default value from the original mission.
-opfor_sentry = rhsgref_ins_spotter;
-opfor_rifleman = rhsgref_ins_rifleman_aks74;
-opfor_grenadier = rhsgref_ins_grenadier;
-opfor_squad_leader = rhsgref_ins_squadleader;
-opfor_team_leader = rhsgref_ins_squadleader;
-opfor_marksman = rhsgref_ins_sniper;
-opfor_machinegunner = rhsgref_ins_machinegunner;
-opfor_heavygunner = rhsgref_ins_machinegunner;
-opfor_medic = rhsgref_ins_medic;
-opfor_rpg = rhsgref_ins_grenadier_rpg;
-opfor_at = rhsgref_ins_grenadier_rpg;
-opfor_aa = rhsgref_ins_specialist_aa;
-opfor_officer = rhsgref_ins_squadleader;
-opfor_sharpshooter = rhsgref_ins_militiaman_mosin;
-opfor_sniper = rhsgref_ins_sniper;
-opfor_engineer = rhsgref_ins_engineer;
-opfor_paratrooper = rhsgref_ins_saboteur;
+opfor_sentry = "rhsgref_ins_spotter";
+opfor_rifleman = "rhsgref_ins_rifleman_aks74";
+opfor_grenadier = "rhsgref_ins_grenadier";
+opfor_squad_leader = "rhsgref_ins_squadleader";
+opfor_team_leader = "rhsgref_ins_squadleader";
+opfor_marksman = "rhsgref_ins_sniper";
+opfor_machinegunner = "rhsgref_ins_machinegunner";
+opfor_heavygunner = "rhsgref_ins_machinegunner";
+opfor_medic = "rhsgref_ins_medic";
+opfor_rpg = "rhsgref_ins_grenadier_rpg";
+opfor_at = "rhsgref_ins_grenadier_rpg";
+opfor_aa = "rhsgref_ins_specialist_aa";
+opfor_officer = "rhsgref_ins_squadleader";
+opfor_sharpshooter = "rhsgref_ins_militiaman_mosin";
+opfor_sniper = "rhsgref_ins_sniper";
+opfor_engineer = "rhsgref_ins_engineer";
+opfor_paratrooper = "rhsgref_ins_saboteur";
 
 // OPFOR Vehicles to be used in secondary objectives
-opfor_mrap = rhsgref_BRDM2UM_ins;
-opfor_mrap_armed = rhsgref_BRDM2_ins;
-opfor_transport_helo = rhsgref_ins_Mi8amt;
-opfor_transport_truck = rhsgref_ins_ural;
-opfor_fuel_truck = RHS_Ural_Fuel_MSV_01;
-opfor_ammo_truck = rhsgref_ins_gaz66_ammo;
+opfor_mrap = "rhsgref_BRDM2UM_ins";
+opfor_mrap_armed = "rhsgref_BRDM2_ins";
+opfor_transport_helo = "rhsgref_ins_Mi8amt";
+opfor_transport_truck = "rhsgref_ins_ural";
+opfor_fuel_truck = "RHS_Ural_Fuel_MSV_01";
+opfor_ammo_truck = "rhsgref_ins_gaz66_ammo";
 opfor_fuel_container = nil;
 opfor_ammo_container = nil;
-opfor_flag = rhs_Flag_Che_F;
+opfor_flag = "rhs_Flag_Che_F";
 
 // Militia infantry. Soldier classnames the game will pick from randomly
-militia_squad_overwrite = false;
+militia_squad_overwrite = true;
 militia_squad_extension = [
 	"rhsgref_ins_g_specialist_aa",
 	"rhsgref_ins_g_grenadier_rpg",
@@ -487,7 +513,7 @@ militia_squad_extension = [
 ];
 
 // Militia vehicles to choose from
-militia_vehicles_overwrite = false;
+militia_vehicles_overwrite = true;
 militia_vehicles_extension = [
 	"rhsgref_ins_g_uaz_dshkm_chdkz",
 	"rhsgref_ins_g_uaz_ags",
@@ -502,7 +528,7 @@ militia_vehicles_extension = [
 ];
 
 // All the vehicles that can spawn as sector defenders and patrols
-opfor_vehicles_overwrite = false;
+opfor_vehicles_overwrite = true;
 opfor_vehicles_extension = [
 	"rhsgref_ins_ural_open",
 	"rhsgref_ins_uaz_dshkm",
@@ -512,7 +538,7 @@ opfor_vehicles_extension = [
 ];
 
 // Same with lighter choices to be used  when the alert level is low
-opfor_vehicles_low_intensity_overwrite = false;
+opfor_vehicles_low_intensity_overwrite = true;
 opfor_vehicles_low_intensity_extension = [
 	"rhsgref_ins_uaz_dshkm",
 	"rhsgref_ins_uaz_spg9",
@@ -521,7 +547,7 @@ opfor_vehicles_low_intensity_extension = [
 ];
 
 // All the vehicles that can spawn as battlegroup members
-opfor_battlegroup_vehicles_overwrite = false;
+opfor_battlegroup_vehicles_overwrite = true;
 opfor_battlegroup_vehicles_extension = [
 	"rhsgref_BRDM2_ins",
 	"rhsgref_ins_btr70",
@@ -531,7 +557,7 @@ opfor_battlegroup_vehicles_extension = [
 ];
 
 // Same with lighter choices to be used  when the alert level is low
-opfor_battlegroup_vehicles_low_intensity_overwrite = false;
+opfor_battlegroup_vehicles_low_intensity_overwrite = true;
 opfor_battlegroup_vehicles_low_intensity_extension = [
 	"rhsgref_BRDM2_HQ_ins",
 	"rhsgref_BRDM2_ins"
@@ -540,7 +566,7 @@ opfor_battlegroup_vehicles_low_intensity_extension = [
 
 // All the vehicles that can spawn as battlegroup members (see above) and also hold 8 soldiers as passengers.
 // If something in here can't hold all 8 soldiers then buggy behaviours may occur
-opfor_troup_transports_overwrite = false;
+opfor_troup_transports_overwrite = true;
 opfor_troup_transports_extension = [
 	"rhsgref_ins_ural",
 	"rhsgref_ins_ural_open"
@@ -548,14 +574,14 @@ opfor_troup_transports_extension = [
 ];
 
 // Battlegroup members that will need to spawn in flight. Should be only helos but, who knows
-opfor_choppers_overwrite = false;
+opfor_choppers_overwrite = true;
 opfor_choppers_extension = [
 	"rhsgref_ins_Mi8amt"
 
 ];
 
 // Opfor military aircrafts
-opfor_air_overwrite = false;
+opfor_air_overwrite = true;
 opfor_air_extension = [
 	"RHS_Su25SM_vvsc"
 
@@ -604,7 +630,7 @@ vehicle_refuel_sources_extension = [
 
 // Elite vehicles that should be unlocked through military base capture.
 elite_vehicles_extension = [
-	"Steve_MBT_Kuma",
+	"Steve_MBT_Kuma", // Steven's Kuma MBT
 	"Burnes_FV4034_01",
 	"RHS_AH1Z_wd_GS",
 	"H_RAH66",

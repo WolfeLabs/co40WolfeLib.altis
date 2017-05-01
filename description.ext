@@ -28,6 +28,8 @@ class Header
 #include "ui\liberation_notifications.hpp"
 #include "ui\mission_params.hpp"
 
+#include "infiSTAR_AdminMenu.hpp"
+
 class CfgDebriefing
 {
 	class End1

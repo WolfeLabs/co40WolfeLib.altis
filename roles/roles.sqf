@@ -20,7 +20,7 @@ wolfeAdmins = /* Full Access */
 		"76561198076424327", //Patches
 		"76561197964255133", //Reaper
 		"76561198082992671", //Phantom
-		"76561198136964498" //Viking Actual | Odin
+		"76561198136964498" //Viking Actual | Odin Actual
 	];
 
 wolfeMedics = /* Medics */ 
