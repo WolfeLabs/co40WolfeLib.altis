@@ -550,7 +550,8 @@ opfor_troup_transports_extension = [
 // Battlegroup members that will need to spawn in flight. Should be only helos but, who knows
 opfor_choppers_overwrite = true;
 opfor_choppers_extension = [
-	"rhsgref_ins_Mi8amt"
+	"RHS_Mi8mt_vvsc",
+	"RHS_Mi8AMTSh_UPK23_vvsc"
 
 ];
 
