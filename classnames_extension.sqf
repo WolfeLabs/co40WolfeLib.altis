@@ -361,33 +361,7 @@ buildings_extension = [
 	["Land_BagFence_01_end_green_F",0,0,0],
 	["Land_LandMark_F",0,0,0],
 	["rhs_Flag_Russia_F",0,0,0],
-	["IP_Flag_Germany_F",0,0,0],
-	
-	["Land_Shoot_House_Wall_Long_F",0,0,0],
-	["Land_Shoot_House_Panels_F",0,0,0],
-	["Land_Shoot_House_Panels_Windows_F",0,0,0],
-	["Land_Shoot_House_Panels_Window_F",0,0,0],
-	["Land_Shoot_House_Wall_Long_Crouch_F",0,0,0],
-	["Land_Obstacle_Cross_F",0,0,0],
-	["VR_Area_01_square_4x4_yellow_F",0,0,0],
-	["TapeSign_F",0,0,0],
-	["Pole_F",0,0,0],
-	["SignAd_Sponsor_F",0,0,0],
-	["Land_Shoot_House_Wall_F",0,0,0],
-	["Land_Obstacle_Pass_F",0,0,0],
-	["Land_Shoot_House_Wall_Stand_F",0,0,0],
-	["Land_Shoot_House_Wall_Prone_F",0,0,0],
-	["TargetP_Inf_F",0,0,0],
-	["Land_CampingTable_F",0,0,0],
-	["TargetP_Inf2_F",0,0,0],
-	["TargetP_Inf2_Acc1_F",0,0,0],
-	["TargetP_Inf_Acc1_F",0,0,0],
-	["Land_Shoot_House_Panels_Vault_F",0,0,0],
-	["Land_Shoot_House_Wall_Long_Stand_F",0,0,0],
-	["Land_Obstacle_Bridge_F",0,0,0],
-	["Land_Shoot_House_Wall_Long_Prone_F",0,0,0],
-	["BlockConcrete_F",0,0,0],
-	["Land_Obstacle_Ramp_F",0,0,0]
+	["IP_Flag_Germany_F",0,0,0]
 
 ];
 
