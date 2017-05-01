@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=1281;
+		nextID=1282;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14358.738,28.170504,15829.692};
-		dir[]={-0.67946517,-0.23793279,-0.69416821};
-		up[]={-0.16653426,0.97123647,-0.17013659};
-		aside[]={-0.71468562,-5.9604645e-007,0.69955498};
+		pos[]={14509.484,25.74201,5826.4751};
+		dir[]={-0.0054513728,-0.64359891,0.76540899};
+		up[]={-0.0045831599,0.76535153,0.64359736};
+		aside[]={1.0000235,-2.1931282e-007,0.0071242047};
 	};
 };
 binarizationWanted=0;
@@ -78,13 +78,14 @@ addons[]=
 	"A3_Structures_F_Bootcamp_VR_Helpers",
 	"A3_Signs_F",
 	"A3_Signs_F_Signs_Ad",
-	"A3_Structures_F_Items_Electronics"
+	"A3_Structures_F_Items_Electronics",
+	"ace_scopes"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=42;
+		items=43;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -379,6 +380,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item42
+		{
+			className="ace_scopes";
+			name="ACE3 - Scopes";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
 	};
 };
 randomSeed=799071;
@@ -411,7 +419,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=759;
+		items=760;
 		class Item0
 		{
 			dataType="Marker";
@@ -8743,7 +8751,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14506.103,7.8048019,5841.5171};
-				angles[]={0.045303639,0,6.1128521};
+				angles[]={0.045308746,0,6.1128583};
 			};
 			id=531;
 			type="ace_nightvision_ModuleSettings";
@@ -9684,8 +9692,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14507.647,7.5706062,5843.5386};
-				angles[]={6.2099833,0,6.1128521};
+				position[]={14507.647,7.570673,5843.5391};
+				angles[]={6.2099862,0,6.1128583};
 			};
 			id=539;
 			type="ace_zeus_moduleSettings";
@@ -10276,7 +10284,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=3;
+							value=0;
 						};
 					};
 				};
@@ -11219,11 +11227,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14521.202,8.9324265,5848.3618};
+				position[]={14521.202,8.9319687,5848.3618};
 			};
 			id=597;
 			type="ACE_moduleAssignEngineerRoles";
-			atlOffset=3.5214572;
+			atlOffset=3.5209994;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11272,10 +11280,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14481.99,1.0194544,5827.665};
+				position[]={14496.172,9.4257479,5825.0576};
 			};
 			id=598;
 			type="ModuleSlingload_F";
+			atlOffset=4.7391267;
 		};
 		class Item486
 		{
@@ -14458,7 +14467,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={14326.88,17.824673,15808.927};
-			angle=3.9331889;
+			angle=3.9331887;
 			class Attributes
 			{
 				sizeA=2;
@@ -16992,7 +17001,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={14345.902,17.908648,15803.006};
-			angle=-3.9032333;
+			angle=-3.9032331;
 			class Attributes
 			{
 				sizeA=0.1;
@@ -17007,7 +17016,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={14319.644,17.894783,15789.014};
-			angle=-3.9032333;
+			angle=-3.9032331;
 			class Attributes
 			{
 				sizeA=0.1;
@@ -17076,11 +17085,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14511.823,2.2336037,5812.7461};
+				position[]={14512.268,10.28911,5810.2466};
 			};
 			name="adminZeus_2";
 			id=1280;
 			type="ModuleCurator_F";
+			atlOffset=8.2343197;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17181,16 +17191,201 @@ class Mission
 				nAttributes=5;
 			};
 		};
+		class Item759
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14515.091,6.407454,5846.9771};
+			};
+			id=1281;
+			type="ace_scopes_ModuleSettings";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_scopes_ModuleSettings_zeroReferenceHumidity";
+					expression="_this setVariable ['zeroReferenceHumidity',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.5;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_scopes_ModuleSettings_deduceBarometricPressureFromTerrainAltitude";
+					expression="_this setVariable ['deduceBarometricPressureFromTerrainAltitude',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_scopes_ModuleSettings_correctZeroing";
+					expression="_this setVariable ['correctZeroing',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_scopes_ModuleSettings_defaultZeroRange";
+					expression="_this setVariable ['defaultZeroRange',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ace_scopes_ModuleSettings_overwriteZeroRange";
+					expression="_this setVariable ['overwriteZeroRange',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ace_scopes_ModuleSettings_zeroReferenceBarometricPressure";
+					expression="_this setVariable ['zeroReferenceBarometricPressure',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1013.25;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ace_scopes_ModuleSettings_enabled";
+					expression="_this setVariable ['enabled',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ace_scopes_ModuleSettings_zeroReferenceTemperature";
+					expression="_this setVariable ['zeroReferenceTemperature',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ace_scopes_ModuleSettings_forceUseOfAdjustmentTurrets";
+					expression="_this setVariable ['forceUseOfAdjustmentTurrets',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=9;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=82;
+			nextID=83;
 		};
 		class Links
 		{
-			items=82;
+			items=83;
 			class Item0
 			{
 				linkID=0;
@@ -18006,6 +18201,16 @@ class Mission
 				linkID=81;
 				item0=505;
 				item1=569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item82
+			{
+				linkID=82;
+				item0=602;
+				item1=505;
 				class CustomData
 				{
 					type="Sync";
