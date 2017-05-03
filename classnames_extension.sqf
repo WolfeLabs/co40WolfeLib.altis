@@ -551,7 +551,7 @@ opfor_troup_transports_extension = [
 opfor_choppers_overwrite = true;
 opfor_choppers_extension = [
 	"RHS_Mi8mt_vvsc",
-	"RHS_Mi8AMTSh_UPK23_vvsc"
+	"RHS_Mi8AMT_vvsc"
 
 ];
 
