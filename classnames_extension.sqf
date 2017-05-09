@@ -434,34 +434,34 @@ blufor_squad_para = [
 // *** BADDIES ***
 
 // All OPFOR infantry. Defining a value here will replace the default value from the original mission.
-opfor_sentry = "rhsgref_ins_spotter";
-opfor_rifleman = "rhsgref_ins_rifleman_aks74";
-opfor_grenadier = "rhsgref_ins_grenadier";
-opfor_squad_leader = "rhsgref_ins_squadleader";
-opfor_team_leader = "rhsgref_ins_squadleader";
-opfor_marksman = "rhsgref_ins_sniper";
-opfor_machinegunner = "rhsgref_ins_machinegunner";
-opfor_heavygunner = "rhsgref_ins_machinegunner";
-opfor_medic = "rhsgref_ins_medic";
-opfor_rpg = "rhsgref_ins_grenadier_rpg";
-opfor_at = "rhsgref_ins_grenadier_rpg";
-opfor_aa = "rhsgref_ins_specialist_aa";
-opfor_officer = "rhsgref_ins_squadleader";
-opfor_sharpshooter = "rhsgref_ins_militiaman_mosin";
-opfor_sniper = "rhsgref_ins_sniper";
-opfor_engineer = "rhsgref_ins_engineer";
-opfor_paratrooper = "rhsgref_ins_saboteur";
+opfor_sentry = "min_rf_recon_desert";
+opfor_rifleman = "min_rf_soldier_desert_lite";
+opfor_grenadier = "min_rf_recon_desert_JTAC";
+opfor_squad_leader = "min_rf_recon_desert_TL";
+opfor_team_leader = "min_rf_recon_desert_TL";
+opfor_marksman = "min_rf_recon_desert_M";
+opfor_machinegunner = "min_rf_soldier_desert_AR";
+opfor_heavygunner = "min_rf_soldier_desert_AR";
+opfor_medic = "min_rf_recon_desert_medic";
+opfor_rpg = "min_rf_recon_desert_LAT";
+opfor_at = "min_rf_recon_desert_LAT";
+opfor_aa = "min_rf_soldier_desert_AA";
+opfor_officer = "min_rf_recon_desert_officer";
+opfor_sharpshooter = "min_rf_recon_desert";
+opfor_sniper = "min_rf_recon_desert_M";
+opfor_engineer = "min_rf_recon_desert_exp";
+opfor_paratrooper = "min_rf_soldier_desert_PG";
 
 // OPFOR Vehicles to be used in secondary objectives
-opfor_mrap = "rhsgref_BRDM2UM_ins";
-opfor_mrap_armed = "rhsgref_BRDM2_ins";
-opfor_transport_helo = "rhsgref_ins_Mi8amt";
-opfor_transport_truck = "rhsgref_ins_ural";
-opfor_fuel_truck = "RHS_Ural_Fuel_MSV_01";
-opfor_ammo_truck = "rhsgref_ins_gaz66_ammo";
+opfor_mrap = "min_rf_MRAP_desert";
+opfor_mrap_armed = "min_rf_MRAP_hmg_desert";
+opfor_transport_helo = "min_rf_heli_light_grey";
+opfor_transport_truck = "min_rf_truck_covered_desert";
+opfor_fuel_truck = "min_rf_truck_fuel_desert";
+opfor_ammo_truck = "min_rf_truck_ammo_desert";
 opfor_fuel_container = nil;
 opfor_ammo_container = nil;
-opfor_flag = "rhs_Flag_Che_F";
+opfor_flag = "rhs_Flag_TRN_F";
 
 // Militia infantry. Soldier classnames the game will pick from randomly
 militia_squad_overwrite = true;
@@ -495,7 +495,6 @@ militia_vehicles_extension = [
 	"rhsgref_ins_g_gaz66",
 	"rhsgref_BRDM2_HQ_ins_g",
 	"rhsgref_BRDM2_ins_g",
-	"rhsgref_ins_g_bmp2",
 	"rhsgref_ins_g_btr60",
 	"rhsgref_ins_g_uaz_open"
 
@@ -504,37 +503,32 @@ militia_vehicles_extension = [
 // All the vehicles that can spawn as sector defenders and patrols
 opfor_vehicles_overwrite = true;
 opfor_vehicles_extension = [
-	"rhsgref_ins_ural_open",
-	"rhsgref_ins_uaz_dshkm",
-	"rhsgref_BRDM2_HQ_ins",
-	"rhsgref_ins_uaz_spg9"
+	"min_rf_MRAP_gmg_desert",
+	"min_rf_MRAP_hmg_desert"
 
 ];
 
 // Same with lighter choices to be used  when the alert level is low
 opfor_vehicles_low_intensity_overwrite = true;
 opfor_vehicles_low_intensity_extension = [
-	"rhsgref_ins_uaz_dshkm",
-	"rhsgref_ins_uaz_spg9",
-	"rhsgref_BRDM2_HQ_ins"
+	"min_rf_MRAP_gmg_desert",
+	"min_rf_MRAP_hmg_desert"
 
 ];
 
 // All the vehicles that can spawn as battlegroup members
 opfor_battlegroup_vehicles_overwrite = true;
-opfor_battlegroup_vehicles_extension = [
-	"rhsgref_BRDM2_ins",
-	"rhsgref_ins_btr70",
-	"rhsgref_ins_bmp2k",
-	"rhsgref_ins_t72ba"
+opfor_battlegroup_vehicles_extension = [ 
+	"min_rf_APC_tracked_cannon_desert",
+	"min_rf_MBT_cannon_desert"
 
 ];
 
 // Same with lighter choices to be used  when the alert level is low
 opfor_battlegroup_vehicles_low_intensity_overwrite = true;
 opfor_battlegroup_vehicles_low_intensity_extension = [
-	"rhsgref_BRDM2_HQ_ins",
-	"rhsgref_BRDM2_ins"
+	"min_rf_MRAP_gmg_desert",
+	"min_rf_MRAP_hmg_desert"
 
 ];
 
@@ -542,23 +536,23 @@ opfor_battlegroup_vehicles_low_intensity_extension = [
 // If something in here can't hold all 8 soldiers then buggy behaviours may occur
 opfor_troup_transports_overwrite = true;
 opfor_troup_transports_extension = [
-	"rhsgref_ins_ural",
-	"rhsgref_ins_ural_open"
+	"min_rf_truck_covered_desert",
+	"min_rf_truck_transport_desert"
 
 ];
 
 // Battlegroup members that will need to spawn in flight. Should be only helos but, who knows
 opfor_choppers_overwrite = true;
 opfor_choppers_extension = [
-	"RHS_Mi8mt_vvsc",
-	"RHS_Mi8AMTSh_UPK23_vvsc"
+	"min_rf_heli_light_grey",
+	"min_rf_heli_attack_desert"
 
 ];
 
 // Opfor military aircrafts
 opfor_air_overwrite = true;
 opfor_air_extension = [
-	"RHS_Su25SM_vvsc"
+	"min_rf_Plane_CAS"
 
 ];
 
