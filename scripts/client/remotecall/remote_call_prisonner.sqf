@@ -1,13 +1,14 @@
 params [ "_unit" ];
-private [ "_nearestfob", "_is_near_fob", "_is_near_blufor", "_grp", "_waypoint", "_nearblufor" ];
+private [ "_nearestfob", "_is_near_fob", "_is_near_blufor", "_grp", "_waypoint", "_nearblufor","_WaterBoard","_target","_officer" ];
 
 waitUntil {
 	sleep 0.5;
 	local _unit
 };
-
+_target = player;
 _is_near_fob = false;
 _is_near_blufor = true;
+_WaterBoard = false;
 
 sleep 1;
 _unit playmove "AmovPercMstpSsurWnonDnon_AmovPercMstpSnonWnonDnon";
@@ -31,15 +32,40 @@ waitUntil { sleep 5;
 	_is_near_blufor = false;
 	if ( !_is_near_blufor ) then {
 		{
-			if ((_x distance _unit) < 100) exitWith { _is_near_blufor = true };
+			if ((_x distance _unit) < 100) exitWith { _is_near_blufor = true};
 		} foreach (  [ allUnits, { !(((typeof _x) in opfor_infantry) || ((typeof _x) in militia_squad)) } ] call BIS_fnc_conditionalSelect );
 	};
 
 	!alive _unit || !(_is_near_blufor) || (_is_near_fob && (vehicle _unit == _unit))
 };
 
-if (alive _unit) then {
+waitUntil { sleep 5;
 
+	if ( !_WaterBoard ) then {
+		{
+		if ((_x distance _unit) < 5) exitWith {_WaterBoard = true };
+		} foreach (  [ allUnits, { !(((typeof _x) in opfor_infantry) || ((typeof _x) in militia_squad)) } ] call BIS_fnc_conditionalSelect );		
+	};
+	!alive _unit || !(_is_near_blufor) || !(_WaterBoard) || (_is_near_fob && (vehicle _unit == _unit))
+};
+if (alive _unit) then {
+	
+	if ( ( getPlayerUID _target ) in wolfeAdmins && _WaterBoard = true ) then {
+		
+		sleep 5;
+		_grp = createGroup WEST;
+		[_unit] joinSilent _grp;
+		_unit playmove "AmovPercMstpSnonWnonDnon_AmovPsitMstpSnonWnonDnon_ground";
+		_unit disableAI "ANIM";
+		_unit disableAI "MOVE";
+		sleep 5;
+		[ [ _unit, "AidlPsitMstpSnonWnonDnon_ground00" ], "remote_call_switchmove" ] call bis_fnc_mp;
+		[ [_unit] , "prisonner_remote_call" ] call BIS_fnc_MP;
+		sleep 600;
+		deleteVehicle _unit;
+				
+			};
+	
 	if ( _is_near_fob ) then {
 
 		sleep 5;
